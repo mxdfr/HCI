@@ -3,9 +3,7 @@
     height:100%;
     width:50%;
     text-align: center;
-    vertical-align: middle;
     background-color: lightgrey;
-    font-size:50;
 }
 
 #initialCustomer, #custPregnant, #smoking{
@@ -14,10 +12,18 @@
     height:100%;
     text-align: center;
     background-color:grey;
-    font-size:50;
 
+}
+
+#initialCustomer p, #initialPartner p , #custBorn p, #custPregnant p, #notSmoking p, #smoking p {
+    margin-top:calc(50vh - 40px)
 }
 
 #custBorn, #notsmoking, #custPregnant, #smoking, #finishScreen {
 	display: none;
+}
+
+body {
+    padding:0;
+    margin:0;
 }
