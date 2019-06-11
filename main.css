@@ -1,4 +1,23 @@
+html{
+    background: #9e3045; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d57b79 0%, #9e3045 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d57b79 0%,#9e3045 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d57b79 0%,#9e3045 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d57b79', endColorstr='#9e3045',GradientType=0 ); /* IE6-9 */
+    height: 100vh;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
 #Roken {
     text-align: center;
-    color: aqua;
+    color: white;
 }
