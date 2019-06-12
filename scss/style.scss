@@ -88,7 +88,9 @@ body{
     font-family: Helvetica;
     font-size: 22px;
 }
-
+* {
+    @include transition(1);
+}
 h1 {
     font-size: 38px;
     padding: 15px 0px 0px 0px;
@@ -102,7 +104,7 @@ h1 {
 .white-blocks-wrapper {
     max-width: 700px;
     margin: auto;
-    .white_block {
+    .white-block {
         background-color: #fff;
         width: calc(100% - 20px);
         border-radius: 10px;
@@ -114,11 +116,19 @@ h1 {
             margin-bottom: 30px;
             margin-left: 40px;
             font-weight: lighter;
-        }   
+        } 
+    }
+    .extra-explanation {
+        display: none;
+    }  
+    .white-block.active {
+        .extra-explanation {
+            display: inline;
+        }  
     }
     @include bp(W768) {
         max-width: 90%;
-        .white_block {
+        .white-block {
             p {
                 font-size: 17px;
             }

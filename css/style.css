@@ -19,26 +19,34 @@ body {
   font-size: 22px;
 }
 
-/* line 92, /Users/maxdefroe/HCI/scss/style.scss */
+/* line 91, /Users/maxdefroe/HCI/scss/style.scss */
+* {
+  -moz-transition: all "1s" ease;
+  -o-transition: all "1s" ease;
+  -webkit-transition: all "1s" ease;
+  transition: all "1s" ease;
+}
+
+/* line 94, /Users/maxdefroe/HCI/scss/style.scss */
 h1 {
   font-size: 38px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 98, /Users/maxdefroe/HCI/scss/style.scss */
+/* line 100, /Users/maxdefroe/HCI/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 102, /Users/maxdefroe/HCI/scss/style.scss */
+/* line 104, /Users/maxdefroe/HCI/scss/style.scss */
 .white-blocks-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 105, /Users/maxdefroe/HCI/scss/style.scss */
-.white-blocks-wrapper .white_block {
+/* line 107, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
   border-radius: 10px;
@@ -47,21 +55,31 @@ h1 {
   text-align: left;
 }
 
-/* line 112, /Users/maxdefroe/HCI/scss/style.scss */
-.white-blocks-wrapper .white_block p {
+/* line 114, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .white-block p {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 40px;
   font-weight: lighter;
 }
 
+/* line 121, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .extra-explanation {
+  display: none;
+}
+
+/* line 125, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .white-block.active .extra-explanation {
+  display: inline;
+}
+
 @media (max-width: 768px) {
-  /* line 102, /Users/maxdefroe/HCI/scss/style.scss */
+  /* line 104, /Users/maxdefroe/HCI/scss/style.scss */
   .white-blocks-wrapper {
     max-width: 90%;
   }
-  /* line 122, /Users/maxdefroe/HCI/scss/style.scss */
-  .white-blocks-wrapper .white_block p {
+  /* line 132, /Users/maxdefroe/HCI/scss/style.scss */
+  .white-blocks-wrapper .white-block p {
     font-size: 17px;
   }
 }
