@@ -26,11 +26,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: fixed;
   top: 2px;
   right: 4px;
-  width: 280px;
+  width: 75px;
 }
 
 /* The popup form - hidden by default */
 .form-popup {
+  width:100%;
   display:none;
   position: fixed;
   bottom:0;
@@ -88,15 +89,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-<button class="open-button" onclick="openForm()">Open Form</button>
+<img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"></img>
+<div id="userName" class='open-button'></div>
+
 
 <div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <input type="text" placeholder="Username" name="email" required>
+  <form class="form-container">
+    <input type="text" placeholder="Username" name="name" id="name" required>
 
-    <input type="password" placeholder="Password" name="psw" required>
+    <input type="password" placeholder="Password" name="psw" id="psw" required>
 
-    <button type="submit" class="btn">Login</button>
+    <button class="btn" onclick="login()">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>

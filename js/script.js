@@ -14,3 +14,17 @@ $( document ).ready(function() {
       });
     }
 });
+
+function login() {
+   var name = document.getElementById("name").value
+   localStorage.setItem("name", name)
+   alert(localStorage.getItem("name"))
+} 
+
+$( document ).ready(function() {
+   if (localStorage.getItem("name") != "null") {
+    document.getElementById("open-button").style.visibility = 'hidden';
+    document.getElementById("userName").innerHTML = localStorage.getItem("name")
+    document.getElementById("userName").style.visibility = 'block';
+  }
+});
