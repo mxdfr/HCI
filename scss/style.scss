@@ -22,9 +22,21 @@ h1 {
     text-align: center;
     color: white;
 }
-.white_block {
-    background-color: #fff;
-    width: calc(50% - 20px);
-    border-radius: 10px;
-    float: left;
+.white-blocks-wrapper {
+    max-width: 700px;
+    margin: auto;
+    .white_block {
+        background-color: #fff;
+        width: calc(50% - 20px);
+        border-radius: 10px;
+        float: left;
+        margin: 10px;
+        height: 100px;
+        text-align: center;
+        p {
+            margin: 30px;
+            font-weight: lighter;
+        }   
+    }
 }
+
