@@ -1,3 +1,80 @@
+//MIXINS
+
+	// Responsive Breakpoints
+	// Usage: @include bp(W1000) { height: 80px; }
+	@mixin bp($point) {
+	    @if $point == M1600 {
+	        @media (min-width: 1600px) { @content; }
+	    }
+	     @else if $point == W1650 {
+	        @media (max-width: 1650px) { @content; }
+	    }
+	    @else if $point == W1600 {
+	        @media (max-width: 1600px) { @content; }
+	    }
+	    @else if $point == W1450 {
+	        @media (max-width: 1450px) { @content; }
+		}
+		@else if $point == M1300{
+	        @media (min-width: 1300px) { @content; }
+	    }
+	    @else if $point == W1250 {
+	        @media (max-width: 1250px) { @content; }
+	    }
+	    @else if $point == W1200 {
+	        @media (max-width: 1200px) { @content; }
+		}
+		@else if $point == M1000{
+	        @media (min-width: 1000px) { @content; }
+	    }
+	    @else if $point == W1000{
+	        @media (max-width: 1000px) { @content; }
+		}
+		@else if $point == M900{
+	        @media (min-width: 900px) { @content; }
+	    }
+	    @else if $point == W900{
+	        @media (max-width: 900px) { @content; }
+	    }
+	    @else if $point == W850{
+	        @media (max-width: 850px) { @content; }
+	    }
+	    @else if $point == M768 {
+	        @media (min-width: 768px) { @content; }
+	    }
+	    @else if $point == W768 {
+	        @media (max-width: 768px) { @content; }
+	    }
+	    @else if $point == W600 {
+	        @media (max-width: 600px) { @content; }
+	    }
+	    @else if $point == W550 { // Container Fix
+	        @media (max-width: 550px) { @content; }
+		}
+		@else if $point == W500 { // Container Fix
+	        @media (max-width: 500px) { @content; }
+	    }
+	    @else if $point == W480 { // Container Fix
+	        @media (max-width: 480px) { @content; }
+	    }
+	    @else if $point == W420 {
+	        @media (max-width: 420px) { @content; }
+	    }
+	    @else if $point == W350 { // Container Fix
+	        @media (max-width: 350px) { @content; }
+	    }
+	}
+
+	//	Transitions
+	@mixin transition($time...) {
+	    -moz-transition: all $time + 's' ease;
+	    -o-transition: all $time + 's' ease;
+	    -webkit-transition: all $time + 's' ease;
+	    transition: all $time + 's' ease;
+	}
+
+
+
 html{
     background: #9e3045; /* Old browsers */
     background: -moz-linear-gradient(top,  #d57b79 0%, #9e3045 100%); /* FF3.6-15 */
@@ -27,16 +104,25 @@ h1 {
     margin: auto;
     .white_block {
         background-color: #fff;
-        width: calc(50% - 20px);
+        width: calc(100% - 20px);
         border-radius: 10px;
         float: left;
         margin: 10px;
-        height: 100px;
-        text-align: center;
+        text-align: left;
         p {
-            margin: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 40px;
             font-weight: lighter;
         }   
+    }
+    @include bp(W768) {
+        max-width: 90%;
+        .white_block {
+            p {
+                font-size: 17px;
+            }
+        }
     }
 }
 
