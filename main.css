@@ -18,7 +18,13 @@ h1 {
 }
 
 
-#Roken {
+.title {
     text-align: center;
     color: white;
+}
+.white_block {
+    background-color: #fff;
+    width: calc(50% - 20px);
+    border-radius: 10px;
+    float: left;
 }
