@@ -1,0 +1,57 @@
+/* line 1, /Users/maxdefroe/HCI/scss/style.scss */
+html {
+  background: #9e3045;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d57b79 0%, #9e3045 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d57b79 0%, #9e3045 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d57b79 0%, #9e3045 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d57b79', endColorstr='#9e3045',GradientType=0 );
+  /* IE6-9 */
+  height: 100vh;
+}
+
+/* line 10, /Users/maxdefroe/HCI/scss/style.scss */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+/* line 15, /Users/maxdefroe/HCI/scss/style.scss */
+h1 {
+  font-size: 38px;
+  padding: 15px 0px 0px 0px;
+}
+
+/* line 21, /Users/maxdefroe/HCI/scss/style.scss */
+.title {
+  text-align: center;
+  color: white;
+}
+
+/* line 25, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* line 28, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .white_block {
+  background-color: #fff;
+  width: calc(50% - 20px);
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+  height: 100px;
+  text-align: center;
+}
+
+/* line 36, /Users/maxdefroe/HCI/scss/style.scss */
+.white-blocks-wrapper .white_block p {
+  margin: 30px;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=../css/style.map */
