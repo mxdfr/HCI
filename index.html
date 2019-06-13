@@ -26,24 +26,28 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: fixed;
   top: 2px;
   right: 4px;
-  width: 280px;
+  width: 75px;
 }
 
 /* The popup form - hidden by default */
 .form-popup {
-  display: none;
+  width:100%;
+  display:none;
   position: fixed;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
+  bottom:0;
+  right:0;
+  border:3px solid #f1f1f1;
+  z-index:9;
+  opacity:0.95;
 }
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
+  max-width:100%;
+  padding:10px;
+  padding-top: calc(50vh - 170px);
+  height:100vh;
+  background-color:pink;
 }
 
 /* Full-width input fields */
@@ -85,19 +89,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-<button class="open-button" onclick="openForm()">Open Form</button>
+<img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"></img>
+<div id="userName" class='open-button'></div>
+
 
 <div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
+  <form class="form-container">
+    <input type="text" placeholder="Username" name="name" id="name" required>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="password" placeholder="Password" name="psw" id="psw" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
+    <button class="btn" onclick="login()">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
