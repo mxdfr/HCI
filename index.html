@@ -113,8 +113,13 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
-    <h1 class="title">Prevent A Relapse</h1>
-    <div class="white-blocks-wrapper">
+    <h1 id = "title" class="title">Prevent A Relapse</h1>
+    <div id="chat_bot" class = "chat_bot" style="display: none;">
+        <p>Hi, sit down, relax, and talk to me. I will listen to you and provide you with the best feedback I can</p>
+        <input type="text">
+        <input type="submit">
+    </div>
+    <div id="six_blocks" class="white-blocks-wrapper">
         <div class="white-block">
             <p>Problem solving</p>
             <div class="extra-explanation">
@@ -185,7 +190,7 @@ Of women developing lung cancer by 25.7 times
     </div>
 
     <div>
-        <button onclick="Chat_function()" class="footer">Wanting a cigarette too bad? Click here to live chat</button>
+        <button id="button" onclick="chat_bot()" class="footer">Wanting a cigarette too bad? Click here to live chat</button>
     </div>
 </body>
 </html>
