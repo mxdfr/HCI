@@ -90,7 +90,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 <img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"></img>
-<div id="userName" class='open-button'></div>
+<div id="userName" class='open-button' onclick="openLogout()"></div>
 
 
 <div class="form-popup" id="myForm">
@@ -104,15 +104,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   </form>
 </div>
 
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+<div class="form-popup" id="logOut">
+  <form class="form-container">
+    <button class="btn" onclick="closeLogout()">Logout</button>
+  </form>
+</div>
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
     <h1 id = "title" class="title">Prevent A Relapse</h1>
     <div id="chat_bot" class = "chat_bot" style="display: none;">
         <p>Hi, sit down, relax, and talk to me. I will listen to you and provide you with the best feedback I can</p>
@@ -121,15 +118,34 @@ function closeForm() {
     </div>
     <div id="six_blocks" class="white-blocks-wrapper">
         <div class="white-block">
-            <img class="icon" src="img/1red.png"><p>Problem solving</p>
-            <div class="extra-explanation">
-                <p>geile beer</p>
+            <p>Problem solving</p>
+            <div class="extra-explanation" id="problem-solving" onclick="speechMe('problem-solving')">
+                                      <p>Five fules to avoid a relapse</p>
+            <ol>
+              <li>Avoid taking even one drag of a cigarette as this usually leads to a relapse. It is easier to refuse the first cigarette than the second.</li>
+              <li>Avoid places where people smoke. Try to be with non-smokers. Moderate your alcohol consumption, because alcohol can trigger cravings; it lowers self-control and therefore makes you more likely to give in to the temptation to smoke a cigarette or to relapse.</li>
+              <li>Stay motivated. Make a (written) promise to yourself not to smoke anymore. Make a list of all the benefits of quitting, and a list of all the disadvantages of smoking. Read the lists regularly.</li>
+              <li>Prepare an emergency plan to cope with high risk situations and cravings.</li>
+              <li>If you experience withdrawal symptoms use nicotine replacement therapy (NRT), Zyban or Champix. Your doctor will tell you which is best suited to you.</li>
+            </ol>
             </div>
         </div>
         <div class="white-block">
             <img class="icon" src="img/2red.png"><p>Health consquences</p>
             <div class="extra-explanation">
-                <p>geile flikker</p>
+            <ul>
+              <li>Cigarette smoking causes more than 480,000 deaths each year in the United States. This is nearly one in five deaths.</li>
+              <li>More than 10 times as many U.S. citizens have died prematurely from cigarette smoking than have died in all the wars fought by the United States.</li>
+              <li>Smoking causes about 90% (or 9 out of 10) of all lung cancer deaths.</li><li>Smoking causes about 80% (or 8 out of 10) of all deaths from chronic obstructive pulmonary disease (COPD).</li>
+              <li>Cigarette smoking increases risk for death from all causes in men and women
+Smokers are more likely than nonsmokers to develop heart disease, stroke, and lung cancer</li>
+        <li>Estimates show smoking increases the risk:
+For coronary heart disease by 2 to 4 times1,6
+For stroke by 2 to 4 times1
+Of women developing lung cancer by 25.7 times
+</li>
+        <li>Smoking causes diminished overall health, increased absenteeism from work, and increased health care utilization and cost.</li>
+      </ul>
             </div>
         </div>
         <div class="white-block">
@@ -141,13 +157,31 @@ function closeForm() {
         <div class="white-block">
             <img class="icon" src="img/4red.png"><p>Reduce negative emotions</p>
             <div class="extra-explanation">
-                <p>ouwe pijp</p>
+                <h1>Tip 1: Identify the sources of stress in your life</h1>
+                <p1>To identify your true sources of stress, look closely at your habits, attitude and excuses: <ul>
+                  <li>Do you explain away stress as temporary (“I just have a million things going on right now”) even though you can’t remember the last time you took a breather?</li>
+                  <li>Do you define stress as an integral part of your work or home life (“Things are always crazy around here”) or as a part of your personality (“I have a lot of nervous energy, that’s all”)?</li>
+                  <li>Do you blame your stress on other people or outside events, or view it as entirely normal and unexceptional?</li>
+                </ul></p1>
+                Until you accept responsibility for the role you play in creating or maintaining it, your stress level will remain outside your control.
+                <h2>Tip 2: Make time for fun and relaxation</h2>
+                <p2>Beyond a take-charge approach and a positive attitude, you can reduce stress in your life by carving out “me” time. Don’t get so caught up in the hustle and bustle of life that you forget to take care of your own needs. Nurturing yourself is a necessity, not a luxury. If you regularly make time for fun and relaxation, you’ll be in a better place to handle life’s stressors.<br>
+                  <b>Set aside leisure time.</b>Include rest and relaxation in your daily schedule. Don’t allow other obligations to encroach. This is your time to take a break from all responsibilities and recharge your batteries.<br>
+                  <b>Do something you enjoy every day.</b> Make time for leisure activities that bring you joy, whether it be stargazing, playing the piano, or working on your bike.<br>
+                  <b>Keep your sense of humor. </b>This includes the ability to laugh at yourself. The act of laughing helps your body fight stress in a number of ways.<br>
+                  <b>Take up a relaxation practice. </b>Relaxation techniques such as yoga, meditation, and deep breathing activate the body’s relaxation response, a state of restfulness that is the opposite of the fight or flight or mobilization stress response. As you learn and practice these techniques, your stress levels will decrease and your mind and body will become calm and centered.</p2>
             </div>
         </div>
         <div class="white-block">
             <img class="icon" src="img/5red.png"><p>Social support</p>
             <div class="extra-explanation">
-                <p>ik heb je gemist</p>
+                <p>Social support</p>
+                <ul>
+                  <li>Have a shared understanding in the part each would play in reducing smoking</li>
+                  <li>As a partner try to stop as well</li>
+                  <li>Women spoke of a loss of ease and intimacy with their partner, of being physically and socially separated from each other when only the pregnant women stops smoking</li>
+                  <li>Do not monitor your partner because that does not feel right</li>
+                  <li>Do not smoke in front of your partner</li>
             </div>
         </div>
     </div>

@@ -18,7 +18,6 @@ $( document ).ready(function() {
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
-   alert(localStorage.getItem("name"))
 } 
 
 $( document ).ready(function() {
@@ -27,8 +26,33 @@ $( document ).ready(function() {
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
     document.getElementById("userName").style.visibility = 'block';
   }
+  else {
+    document.getElementById("userName").style.visibility = 'hidden';
+  }
 });
 
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function openLogout() {
+  document.getElementById("logOut").style.display = "block";
+}
+
+function closeLogout() {
+  localStorage.setItem("name", null)
+  document.getElementById("logOut").style.display = "none";
+}
+
+function speechMe(text) {
+  var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
+  window.speechSynthesis.speak(msg);
+  alert('hi')
+}
 // function chat_bot(){
 //   var x = document.getElementById("six_blocks");
 //   if (x.style.display === "none") {
