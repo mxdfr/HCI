@@ -104,7 +104,15 @@ h1 {
 }
 
 /* line 155, /Users/maxdefroe/HCI/public/scss/style.scss */
-#LGX2CTT-1560765360460 {
+.icon {
+  max-width: 50px;
+  margin: 20px;
+  max-height: 50px;
+  float: left;
+}
+
+/* line 163, /Users/maxdefroe/HCI/public/scss/style.scss */
+#contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
