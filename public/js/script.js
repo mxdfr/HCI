@@ -29,6 +29,22 @@ $( document ).ready(function() {
   }
 });
 
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function openLogout() {
+  document.getElementById("logOut").style.display = "block";
+}
+
+function closeLogout() {
+  localStorage.setItem("name", null)
+  document.getElementById("logOut").style.display = "none";
+}
 // function chat_bot(){
 //   var x = document.getElementById("six_blocks");
 //   if (x.style.display === "none") {

@@ -90,7 +90,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 <img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"></img>
-<div id="userName" class='open-button'></div>
+<div id="userName" class='open-button' onclick="openLogout()"></div>
 
 
 <div class="form-popup" id="myForm">
@@ -104,14 +104,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   </form>
 </div>
 
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+<div class="form-popup" id="logOut">
+  <form class="form-container">
+    <button class="btn" onclick="closeLogout()">Logout</button>
+  </form>
+</div>
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
 </script>
     <h1 id = "title" class="title">Prevent A Relapse</h1>
     <div id="chat_bot" class = "chat_bot" style="display: none;">
