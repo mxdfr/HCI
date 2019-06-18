@@ -105,3 +105,9 @@ function changeLogin() {
 //   }
 
 // }
+
+// function{
+//   if (localStorage.getItem("name") != "Maggie"{
+
+//   }
+// }

@@ -397,10 +397,17 @@ h1 {
 			display: none;
 		}
 	}
+}
+
+.first_block{
+    font-size: 16px;
+    color:white;
+    text-align: center;
+}
 	#contentContainer {
 		a {
 			.thin, .emojione, b {
 				display: none;
 			}
 		}
-	}}
+	}
