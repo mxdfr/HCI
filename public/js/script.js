@@ -18,7 +18,6 @@ $( document ).ready(function() {
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
-   alert(localStorage.getItem("name"))
 } 
 
 $( document ).ready(function() {
@@ -26,6 +25,9 @@ $( document ).ready(function() {
     document.getElementById("open-button").style.visibility = 'hidden';
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
     document.getElementById("userName").style.visibility = 'block';
+  }
+  else {
+    document.getElementById("userName").style.visibility = 'hidden';
   }
 });
 
@@ -42,8 +44,28 @@ function openLogout() {
 }
 
 function closeLogout() {
+  document.getElementById("logOut").style.display = "none";
+}
+
+function Logout() {
   localStorage.setItem("name", null)
   document.getElementById("logOut").style.display = "none";
+}
+
+function speechMe(text) {
+  var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
+  window.speechSynthesis.speak(msg);
+  alert('hi')
+}
+
+function changeLogin() {
+  var checkBox = document.getElementById("checkBox");
+  if (checkBox.checked == true){
+    document.getElementById("loginRegister").innerHTML = "Register"
+  } else {
+    document.getElementById("loginRegister").innerHTML = "Login"
+
+  }
 }
 // function chat_bot(){
 //   var x = document.getElementById("six_blocks");

@@ -26,7 +26,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: fixed;
   top: 2px;
   right: 4px;
-  width: 75px;
+  width: 60px;
 }
 
 /* The popup form - hidden by default */
@@ -98,19 +98,24 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <input type="text" placeholder="Username" name="name" id="name" required>
 
     <input type="password" placeholder="Password" name="psw" id="psw" required>
+    <label>
+    <input type="checkbox" id="checkBox" onclick="changeLogin()">I don't own an account</label>
 
-    <button class="btn" onclick="login()">Login</button>
+    <button class="btn" onclick="login()" id="loginRegister">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 
+
 <div class="form-popup" id="logOut">
   <form class="form-container">
-    <button class="btn" onclick="closeLogout()">Logout</button>
+    <p>Hier komt persoonlijke shit te staan</p>
+    <button class="btn" onclick="Logout()">Logout</button>
+    <button class="btn cancel" onclick="closeLogout()">Close</button>
+
   </form>
 </div>
 
-</script>
     <h1 id = "title" class="title">Prevent A Relapse</h1>
     <div id="chat_bot" class = "chat_bot" style="display: none;">
         <p>Hi, sit down, relax, and talk to me. I will listen to you and provide you with the best feedback I can</p>
@@ -119,8 +124,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
     </div>
     <div id="six_blocks" class="white-blocks-wrapper">
         <div class="white-block">
-            <p>Problem solving</p>
-            <div class="extra-explanation">
+          <img class="icon" src="img/1red.png"><p>Problem solving</p>
+            <div class="extra-explanation" id="problem-solving" onclick="speechMe('problem-solving')">
                                       <p>Five fules to avoid a relapse</p>
             <ol>
               <li>Avoid taking even one drag of a cigarette as this usually leads to a relapse. It is easier to refuse the first cigarette than the second.</li>
@@ -132,7 +137,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
             </div>
         </div>
         <div class="white-block">
-            <p>Health consquences</p>
+            <img class="icon" src="img/2red.png"><p>Health consquences</p>
             <div class="extra-explanation">
             <ul>
               <li>Cigarette smoking causes more than 480,000 deaths each year in the United States. This is nearly one in five deaths.</li>
@@ -150,13 +155,13 @@ Of women developing lung cancer by 25.7 times
             </div>
         </div>
         <div class="white-block">
-            <p>Social &amp; Environmental consequences</p>
+            <img class="icon" src="img/3red.png"><p>Social &amp; Environmental consequences</p>
             <div class="extra-explanation">
                 <p>ouwe pik</p>
             </div>
         </div>
         <div class="white-block">
-            <p>Reduce negative emotions</p>
+            <img class="icon" src="img/4red.png"><p>Reduce negative emotions</p>
             <div class="extra-explanation">
                 <h1>Tip 1: Identify the sources of stress in your life</h1>
                 <p1>To identify your true sources of stress, look closely at your habits, attitude and excuses: <ul>
@@ -174,7 +179,7 @@ Of women developing lung cancer by 25.7 times
             </div>
         </div>
         <div class="white-block">
-            <p>Social support</p>
+            <img class="icon" src="img/5red.png"><p>Social support</p>
             <div class="extra-explanation">
                 <p>Social support</p>
                 <ul>

@@ -153,6 +153,16 @@ h1 {
 	color: white;
 	font-size: 16px;
 }
-#LGX2CTT-1560765360460 {
-    display: none;
+.icon {
+	max-width: 50px;
+    margin: 20px;
+    max-height: 50px;
+    float: left;
+}
+#contentContainer {
+	a {
+		.thin, .emojione, b {
+			display: none;
+		}
+	}
 }
