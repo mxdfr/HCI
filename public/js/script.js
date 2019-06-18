@@ -25,9 +25,11 @@ $( document ).ready(function() {
     document.getElementById("open-button").style.visibility = 'hidden';
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
     document.getElementById("userName").style.visibility = 'block';
+    document.getElementById("second-button").style.visibility = 'block';
   }
   else {
     document.getElementById("userName").style.visibility = 'hidden';
+    document.getElementById("second-button").style.visibility = 'hidden';
   }
 });
 
