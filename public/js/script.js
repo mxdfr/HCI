@@ -65,8 +65,14 @@ function changeLogin() {
   var checkBox = document.getElementById("checkBox");
   if (checkBox.checked == true){
     document.getElementById("loginRegister").innerHTML = "Register"
+    document.getElementById("age").style.display = "block";
+    document.getElementById("born").style.display = "block";
+    document.getElementById("smoke").style.display = "block";
   } else {
     document.getElementById("loginRegister").innerHTML = "Login"
+    document.getElementById("age").style.display = "none";
+    document.getElementById("born").style.display = "none";
+    document.getElementById("smoke").style.display = "none";
 
   }
 }
