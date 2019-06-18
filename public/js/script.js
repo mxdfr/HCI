@@ -18,11 +18,11 @@ $( document ).ready(function() {
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
-   graph();
 } 
 
 $( document ).ready(function() {
    if (localStorage.getItem("name") != "null") {
+    document.getElementById("recommend_register").style.display = 'none';
     document.getElementById("open-button").style.visibility = 'hidden';
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
     document.getElementById("userName").style.visibility = 'block';
@@ -58,7 +58,6 @@ function Logout() {
 function speechMe(text) {
   var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
   window.speechSynthesis.speak(msg);
-  alert('hi')
 }
 
 function changeLogin() {
@@ -107,11 +106,13 @@ function changeLogin() {
 
 // }
 
-function graph(){
-  var x = document.getElementById("recommend_register");
-  x.style.display === "none"
-  
+$(document).ready(function(){
   if (localStorage.getItem("name") == "Maggie"){
-    alert("hi")
+    var g = document.getElementById("graph")
+    g.innerHTML = "Hi Maggie, glad to see you. This is your current progress:"
+    var s = document.getElementById("last_smoke")
+    s.innerHTML = "You have not smoked for 24 days! :)"
+    var a = document.getElementById("age_baby")
+    a.innerHTML = "Therefore, your baby is healthy"
   }
-}
+});
