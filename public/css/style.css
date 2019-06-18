@@ -112,21 +112,22 @@ body {
 h1 {
   font-size: 38px;
   padding: 15px 0px 0px 0px;
+  margin: 0px;
 }
 
-/* line 174, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 175, /Users/maxdefroe/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 179, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-blocks-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 181, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 182, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -136,7 +137,7 @@ h1 {
   text-align: left;
 }
 
-/* line 188, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 189, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -144,28 +145,28 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 195, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 196, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-blocks-wrapper .extra-explanation {
   display: none;
 }
 
-/* line 199, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 200, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block.active .extra-explanation {
   display: inline;
 }
 
 @media (max-width: 768px) {
-  /* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 179, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-blocks-wrapper {
     max-width: 90%;
   }
-  /* line 206, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 207, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-blocks-wrapper .white-block p {
     font-size: 17px;
   }
 }
 
-/* line 213, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 214, /Users/maxdefroe/HCI/public/scss/style.scss */
 .footer {
   position: fixed;
   left: 0;
@@ -177,14 +178,14 @@ h1 {
   font-size: 12px;
 }
 
-/* line 224, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 225, /Users/maxdefroe/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 229, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 230, /Users/maxdefroe/HCI/public/scss/style.scss */
 .icon {
   max-width: 50px;
   margin: 20px;
@@ -192,7 +193,7 @@ h1 {
   float: left;
 }
 
-/* line 237, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 238, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
