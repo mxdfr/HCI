@@ -11,8 +11,11 @@
     <title>PAR</title>
 </head>
 <body>
-<img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"></img>
-<div id="userName" class='open-button' onclick="openLogout()"></div>
+<img src="img/user.png" class="open-button" id="open-button" onclick="openForm()"/>
+<div class='open-button-logged' onclick="openLogout()">
+    <div id="userName"></div>
+      <img src="img/user.png" id="second-button" class="open-button"/>
+    </div>
 
 
 <div class="form-popup" id="myForm">
@@ -20,6 +23,11 @@
     <input type="text" placeholder="Username" name="name" id="name" required>
 
     <input type="password" placeholder="Password" name="psw" id="psw" required>
+    <input type="text" placeholder="Age" style='display:none;' name="age" required>
+    <input type="text" placeholder="Date of birth baby (DD-MM-YY)" style='display:none;' name="born" required>
+    <input type="text" placeholder="Date of last cigarette (DD-MM-YY)" style='display:none;' name="smoke" required>
+
+
     <label>
     <input type="checkbox" id="checkBox" onclick="changeLogin()">I don't own an account</label>
 

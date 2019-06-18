@@ -1,4 +1,4 @@
-/* line 78, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 78, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 html {
   background: #9e3045;
   /* Old browsers */
@@ -13,13 +13,13 @@ html {
   height: 100vh;
 }
 
-/* line 87, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 87, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
 }
 
-/* line 91, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 91, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 * {
   box-sizing: border-box;
   -moz-transition: all "1s" ease;
@@ -29,9 +29,8 @@ body {
 }
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-/* line 97, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 97, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .open-button {
-  background-color: #555;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -39,12 +38,27 @@ body {
   opacity: 0.8;
   position: fixed;
   top: 2px;
-  right: 4px;
+  right: 25px;
   width: 60px;
 }
 
+/* line 109, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
+.open-button-logged {
+  font-size: 14px;
+  text-align: right;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 2px;
+  right: 60px;
+  width: 100px;
+}
+
 /* The popup form - hidden by default */
-/* line 111, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 124, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-popup {
   width: 100%;
   display: none;
@@ -57,7 +71,7 @@ body {
 }
 
 /* Add styles to the form container */
-/* line 123, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 136, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container {
   max-width: 100%;
   padding: 10px;
@@ -67,7 +81,7 @@ body {
 }
 
 /* Full-width input fields */
-/* line 132, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 145, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -77,14 +91,14 @@ body {
 }
 
 /* When the inputs get focus, do something */
-/* line 141, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 154, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
 /* Set a style for the submit/login button */
-/* line 147, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 160, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
@@ -97,36 +111,36 @@ body {
 }
 
 /* Add a red background color to the cancel button */
-/* line 159, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 172, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container .cancel {
   background-color: red;
 }
 
 /* Add some hover effects to buttons */
-/* line 164, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 177, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-/* line 168, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 181, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 h1 {
   font-size: 38px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 174, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 187, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 191, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .white-blocks-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 181, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 194, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -136,7 +150,7 @@ h1 {
   text-align: left;
 }
 
-/* line 188, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 201, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -144,28 +158,28 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 195, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 208, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .white-blocks-wrapper .extra-explanation {
   display: none;
 }
 
-/* line 199, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 212, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .white-blocks-wrapper .white-block.active .extra-explanation {
   display: inline;
 }
 
 @media (max-width: 768px) {
-  /* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 191, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
   .white-blocks-wrapper {
     max-width: 90%;
   }
-  /* line 206, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 219, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
   .white-blocks-wrapper .white-block p {
     font-size: 17px;
   }
 }
 
-/* line 213, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 226, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .footer {
   position: fixed;
   left: 0;
@@ -177,14 +191,14 @@ h1 {
   font-size: 12px;
 }
 
-/* line 224, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 237, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 229, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 242, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 .icon {
   max-width: 50px;
   margin: 20px;
@@ -192,7 +206,7 @@ h1 {
   float: left;
 }
 
-/* line 237, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 250, C:/Users/lucas/Desktop/Nieuwe map/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
