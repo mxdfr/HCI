@@ -4,7 +4,7 @@
 		// Usage: @include bp(W1000) { height: 80px; }
 		@mixin bp($point) {
 		    @if $point == M1600 {
-		        @media (min-width: 1600px) { @content; }gi
+		        @media (min-width: 1600px) { @content; }
 		    }
 		     @else if $point == W1650 {
 		        @media (max-width: 1650px) { @content; }
