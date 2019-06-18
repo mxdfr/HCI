@@ -253,14 +253,14 @@ h1 {
   background-color: red;
 }
 
-/* line 324, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .personal_information {
+/* line 325, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.personal_information {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 327, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .personal_information .white-blockk {
+/* line 328, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.personal_information .white-blockk {
   background-color: #fff;
   width: calc(100% - 20px);
   border-radius: 10px;
@@ -269,8 +269,8 @@ h1 {
   text-align: center;
 }
 
-/* line 334, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .personal_information .white-blockk p {
+/* line 335, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.personal_information .white-blockk p {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 5px;
@@ -278,29 +278,29 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 342, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .personal_information .extra-explanation {
+/* line 343, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.personal_information .extra-explanation {
   display: none;
 }
 
-/* line 346, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .personal_information .white-blockk.active .extra-explanation {
+/* line 347, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.personal_information .white-blockk.active .extra-explanation {
   display: inline;
 }
 
 @media (max-width: 768px) {
-  /* line 324, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-  #footer-container .personal_information {
+  /* line 325, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+  .personal_information {
     max-width: 90%;
   }
-  /* line 353, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-  #footer-container .personal_information .white-blockk p {
+  /* line 354, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+  .personal_information .white-blockk p {
     font-size: 17px;
   }
 }
 
-/* line 361, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .accordion {
+/* line 362, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.accordion {
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -315,21 +315,21 @@ h1 {
   margin: 10px;
 }
 
-/* line 374, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .accordion p {
+/* line 375, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.accordion p {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 40px;
   font-weight: lighter;
 }
 
-/* line 382, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .active, #footer-container .accordion:hover {
+/* line 383, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.active, .accordion:hover {
   background-color: #ccc;
 }
 
-/* line 386, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-#footer-container .panel {
+/* line 387, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+.panel {
   padding: 0 18px;
   display: none;
   background-color: white;
