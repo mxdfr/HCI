@@ -113,6 +113,6 @@ $(document).ready(function(){
     var s = document.getElementById("last_smoke")
     s.innerHTML = "You have not smoked for 24 days! :)"
     var a = document.getElementById("age_baby")
-    a.innerHTML = "Therefore, your baby is healthy"
+    a.innerHTML = "Therefore, you and your baby are healthy"
   }
 });

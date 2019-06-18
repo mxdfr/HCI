@@ -427,4 +427,59 @@ h1 {
 			width: calc(100% / 3);
 			position: initial;
 			background-color: red;
-		}
+        }
+        
+// .personal_information{
+//     font-size: 20px;
+//     text-align: center;
+//     color: black;
+//     background-color: #fff;
+//     width: calc(100% - 20px);
+//     border-radius: 10px;
+//     float: left;
+//     margin: 10px;
+//     max-width: 700px;
+//     #last_smoke{
+//         font-size: 15px;
+//     }  
+
+//     #age_baby{
+//         font-size: 15px;
+//     }
+// }
+
+.personal_information {
+    max-width: 700px;
+    margin: auto;
+    .white-blockk {
+        background-color: #fff;
+        width: calc(100% - 20px);
+        border-radius: 10px;
+        float: left;
+        margin: 10px;
+        text-align: center;
+        p {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: lighter;
+        } 
+    }
+    .extra-explanation {
+        display: none;
+    }  
+    .white-blockk.active {
+        .extra-explanation {
+            display: inline;
+        }  
+    }
+    @include bp(W768) {
+        max-width: 90%;
+        .white-blockk {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+}
