@@ -22,6 +22,9 @@ function login() {
 
 $( document ).ready(function() {
    if (localStorage.getItem("name") != "null") {
+    var name = localStorage.getItem("name")
+    var g = document.getElementById("graph")
+    g.innerHTML = "Hi " + name + ", glad to see you"
     document.getElementById("recommend_register").style.display = 'none';
     document.getElementById("open-button").style.visibility = 'hidden';
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
@@ -31,6 +34,7 @@ $( document ).ready(function() {
   else {
     document.getElementById("userName").style.visibility = 'hidden';
     document.getElementById("second-button").style.visibility = 'hidden';
+    document.getElementById("personal_information").style.display = 'none';
   }
 });
 
