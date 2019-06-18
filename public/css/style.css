@@ -179,194 +179,14 @@ h1 {
   }
 }
 
-/* line 236, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-html {
-  background: #9e3045;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #d57b79 0%, #9e3045 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #d57b79 0%, #9e3045 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #d57b79 0%, #9e3045 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d57b79', endColorstr='#9e3045',GradientType=0 );
-  /* IE6-9 */
-  height: 100vh;
-}
-
-/* line 245, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-body {
-  font-family: Helvetica, sans-serif;
-  font-size: 22px;
-}
-
-/* line 249, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-* {
-  box-sizing: border-box;
-  -moz-transition: all "1s" ease;
-  -o-transition: all "1s" ease;
-  -webkit-transition: all "1s" ease;
-  transition: all "1s" ease;
-}
-
-/* Button used to open the contact form - fixed at the bottom of the page */
-/* line 255, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  top: 2px;
-  right: 4px;
-  width: 60px;
-}
-
-/* The popup form - hidden by default */
-/* line 269, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-popup {
-  width: 100%;
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
-  opacity: 0.95;
-}
-
-/* Add styles to the form container */
-/* line 281, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container {
-  max-width: 100%;
-  padding: 10px;
-  padding-top: calc(50vh - 170px);
-  height: 100vh;
-  background-color: #fff;
-}
-
-/* Full-width input fields */
-/* line 290, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container input[type=text], .form-container input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-/* line 299, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/login button */
-/* line 305, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container .btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom: 10px;
-  opacity: 0.8;
-}
-
-/* Add a red background color to the cancel button */
-/* line 317, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-/* line 322, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
-}
-
-/* line 326, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-h1 {
-  font-size: 38px;
-  padding: 15px 0px 0px 0px;
-  margin: 0px;
-}
-
-/* line 333, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.title {
-  text-align: center;
-  color: white;
-}
-
-/* line 337, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.white-blocks-wrapper {
-  max-width: 700px;
-  margin: auto;
-}
-
-/* line 340, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.white-blocks-wrapper .white-block {
-  background-color: #fff;
-  width: calc(100% - 20px);
-  border-radius: 10px;
-  float: left;
-  margin: 10px;
-  text-align: left;
-}
-
-/* line 347, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.white-blocks-wrapper .white-block p {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 40px;
-  font-weight: lighter;
-}
-
-/* line 354, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.white-blocks-wrapper .extra-explanation {
-  display: none;
-}
-
-/* line 358, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.white-blocks-wrapper .white-block.active .extra-explanation {
-  display: inline;
-}
-
-@media (max-width: 768px) {
-  /* line 337, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-  .white-blocks-wrapper {
-    max-width: 90%;
-  }
-  /* line 365, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-  .white-blocks-wrapper .white-block p {
-    font-size: 17px;
-  }
-}
-
-/* line 372, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 12px;
-}
-
-/* line 383, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 234, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 388, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 239, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .icon {
   max-width: 50px;
   margin: 20px;
@@ -374,24 +194,24 @@ h1 {
   float: left;
 }
 
-/* line 396, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 247, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 402, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 253, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .first_block {
   font-size: 16px;
   color: white;
   text-align: center;
 }
 
-/* line 409, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 260, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 415, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 266, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 #footer-container {
   bottom: 0px;
   position: fixed;
@@ -401,7 +221,7 @@ h1 {
   padding: 0px;
 }
 
-/* line 424, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 275, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .footer {
   float: left;
   height: 100%;
