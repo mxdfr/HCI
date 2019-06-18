@@ -18,6 +18,7 @@ $( document ).ready(function() {
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
+   graph();
 } 
 
 $( document ).ready(function() {
@@ -100,8 +101,11 @@ function changeLogin() {
 
 // }
 
-// function{
-//   if (localStorage.getItem("name") != "Maggie"{
-
-//   }
-// }
+function graph(){
+  var x = document.getElementById("recommend_register");
+  x.style.display === "none"
+  
+  if (localStorage.getItem("name") == "Maggie"){
+    alert("hi")
+  }
+}
