@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  var acc = document.getElementsByClassName("accordion");
+  var acc = document.getElementsByClassName("white-block");
   var i;
 
   for (i = 0; i < acc.length; i++) {
@@ -13,6 +13,17 @@ $( document ).ready(function() {
       }
     });
   }
+});
+
+$(function() {
+  $(".progressbar > span").each(function() {
+    $(this)
+      .data("origWidth", $(this).width())
+      .width(0)
+      .animate({
+        width: $(this).data("origWidth")
+      }, 1200);
+  });
 });
 
 function login() {

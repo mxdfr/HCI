@@ -204,6 +204,7 @@
 	}
 
 	.header-image {
+		max-width: 700px;
 		margin-top: 40px !important;
 		height: 200px;
 		background-size: cover;
@@ -220,34 +221,36 @@
 	    text-align: center;
 	    color: white;
 	}
-	.white-blocks-wrapper {
-	    max-width: 700px;
-	    margin: auto;
-	    .white-block {
-	        background-color: #fff;
+	.white-block-wrapper {
+		max-width: 700px;
+		margin: auto;
+		.white-block {
+			max-width: 700px;
+			margin: auto;
+			background-color: #fff;
 			width: calc(100% - 20px);
 			-webkit-box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.15);
 			-moz-box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.15);
 			box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.15);
-	        border-radius: 10px;
-	        float: left;
-	        margin: 10px;
-	        text-align: left;
-	        p {
-	            margin-top: 30px;
-	            margin-bottom: 30px;
-	            margin-left: 40px;
-	            font-weight: lighter;
-	        } 
-	    }
-	    .extra-explanation {
-	        display: none;
-	    }  
-	    .white-block.active {
-	        .extra-explanation {
-	            display: inline;
-	        }  
-	    }
+			border-radius: 10px;
+			float: left;
+			margin: 10px;
+			border: none;
+			margin-bottom: 0px;
+			text-align: left;
+			p {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				margin-left: 40px;
+				font-weight: lighter;
+			} 
+			&:focus {
+				outline: none;
+			}
+		}
+		.white-block.active {
+			border-radius: 10px 10px 0px 0px;
+		}
 	    @include bp(W768) {
 	        max-width: 90%;
 	        .white-block {
@@ -257,7 +260,6 @@
 	        }
 	    }
 	}
-
 	//	Transitions
 	@mixin transition($time...) {
 	    -moz-transition: all $time + 's' ease;
@@ -348,7 +350,7 @@
 .personal_information {
     max-width: 700px;
     margin: auto;
-    .white-blockk {
+    .white-block {
         background-color: #fff;
         width: calc(100% - 20px);
         border-radius: 10px;
@@ -363,56 +365,97 @@
             font-weight: lighter;
         } 
     }
-    .extra-explanation {
-        display: none;
-    }  
-    .white-blockk.active {
-        .extra-explanation {
-            display: inline;
-        }  
-    }
     @include bp(W768) {
         max-width: 90%;
-        .white-blockk {
+        .white-block {
             p {
                 font-size: 17px;
             }
         }
     }
 }
-
-
-.accordion {
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    background-color: #fff;
-	width: calc(100% - 20px);
-	border-radius: 10px;
-	float: left;
-	margin: 10px;
-	    p {
-	        margin-top: 30px;
-	        margin-bottom: 30px;
-	        margin-left: 40px;
-            font-weight: lighter;
-        } 
-  }
-  
-  .active, .accordion:hover {
-    background-color: #ccc; 
-  }
+.progressbar { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.progressbar > span {
+	height: 20px !important;
+    display: block;
+    bottom: 10px;
+    left: -10px;
+	display: block;
+	height: 100%;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #e1787d;
+	background-image: -moz-linear-gradient(top, #e1787d, #c8686a);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e1787d),color-stop(1, #c8686a));
+	background-image: -webkit-linear-gradient(#e1787d, #c8686a);
+	-webkit-box-shadow: 
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	box-shadow: 
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
+}
+.progressbar > span:after {
+	content: "";
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	-webkit-animation: none;
+	background-image: none;
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	overflow: hidden;
+}
   
   .panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-    font-size: 15px;
+	font-size: 15px;
+	margin: 10px;
+    z-index: 3;
+    position: relative;
+	border-radius: 0px 0px 10px 10px;
   }
 
   .countryList {
