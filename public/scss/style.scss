@@ -404,9 +404,6 @@ h1 {
     @include bp(W768) {
         max-width: 90%;
         .white-block {
-            p {
-                font-size: 17px;
-            }
         }
     }
 }
