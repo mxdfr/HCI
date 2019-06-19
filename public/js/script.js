@@ -26,6 +26,20 @@ $(function() {
   });
 });
 
+$(function() {                     
+  $(".fontButtonWrapper > .fontsizeOption").click(function() { 
+    $(".fontButtonWrapper > .fontsizeOption").removeClass("active");  
+    $(this).addClass("active");   
+  });
+});
+
+$(function() {                     
+  $(".fontSizeWrapper > .fontsizeOption").click(function() { 
+    $(".fontSizeWrapper > .fontsizeOption").removeClass("active");  
+    $(this).addClass("active");   
+  });
+});
+
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
