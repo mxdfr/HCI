@@ -54,6 +54,23 @@
 	transition: all $time + 's' ease;
 }
 
+@font-face {
+    font-family: OpenDyslexic3;
+    src: url('../fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
+         url('../fonts/OpenDyslexicThree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenDyslexic3;
+    src: url('../fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
+         url('../fonts/OpenDyslexicThree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 body {
 	min-height: 980px;
 	background-color: #f8f9fb;
