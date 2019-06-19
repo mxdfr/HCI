@@ -36,7 +36,7 @@ $( document ).ready(function() {
   setFontFamily(localStorage.getItem("fontfamily"))
   setFontsize(localStorage.getItem("fontsize"))
 
-   if (localStorage.getItem("name") != "null") {
+   if (localStorage.getItem("name") != "null" && localStorage.getItem("name") != null ) {
     var name = localStorage.getItem("name")
     var g = document.getElementById("graph")
     g.innerHTML = "Hi " + name + ", glad to see you"
