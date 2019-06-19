@@ -32,6 +32,10 @@ function login() {
 } 
 
 $( document ).ready(function() {
+  setLanguage(localStorage.getItem("language"))
+  setFontFamily(localStorage.getItem("fontfamily"))
+  setFontsize(localStorage.getItem("fontsize"))
+
    if (localStorage.getItem("name") != "null") {
     var name = localStorage.getItem("name")
     var g = document.getElementById("graph")
