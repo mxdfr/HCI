@@ -151,4 +151,27 @@ function setCountry() {
 
 function setFontsize(size) {
   localStorage.setItem("fontsize", size)
+  var elements = document.getElementsByClassName('panel');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;
+
+  var elements = document.getElementsByClassName('accordion');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;}
+}}
+
+function setFontFamily(family) {
+  localStorage.setItem("fontfamily", family)
+  var elements = document.getElementsByClassName('panel');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = family;
+
+  var elements = document.getElementsByClassName('accordion');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;}
+}
 }

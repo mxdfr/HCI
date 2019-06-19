@@ -433,45 +433,71 @@ h1 {
 /* line 468, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontPick {
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-/* line 472, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 473, /Users/maxdefroe/HCI/public/scss/style.scss */
+.fontCaption {
+  height: 20%;
+  text-align: center;
+}
+
+/* line 478, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption {
   float: left;
   width: calc(100% / 3);
   position: initial;
   vertical-align: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-/* line 479, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 486, /Users/maxdefroe/HCI/public/scss/style.scss */
 .A {
-  font-size: 22px;
+  font-size: 15px;
 }
 
-/* line 483, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 490, /Users/maxdefroe/HCI/public/scss/style.scss */
 .B {
-  font-size: 32px;
+  font-size: 20px;
 }
 
-/* line 487, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 494, /Users/maxdefroe/HCI/public/scss/style.scss */
 .C {
-  font-size: 42px;
+  font-size: 25px;
 }
 
-/* line 491, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 498, /Users/maxdefroe/HCI/public/scss/style.scss */
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 495, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 502, /Users/maxdefroe/HCI/public/scss/style.scss */
 .E {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana,Geneva,sans-serif;
 }
 
-/* line 499, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 506, /Users/maxdefroe/HCI/public/scss/style.scss */
 .F {
   font-family: Helvetica, sans-serif;
+}
+
+/* line 510, /Users/maxdefroe/HCI/public/scss/style.scss */
+.fontButton {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  width: 90px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
 /*# sourceMappingURL=../css/style.map */

@@ -13,18 +13,30 @@
 <body>
 <div class="form-popup" id="settingsForm">
     <div class="form-container">
-        Dit moeten we hier nog maken:<br>
         <div class="fontPick">
-            <div class="fontsizeOption D" onclick='setFontFamily("arial")'>A</div>
-            <div class="fontsizeOption E" onclick='setFontFamily("verdana")'>aa</div>
-            <div class="fontsizeOption F" onclick='setFontFamily("helvica")'>aa</div>
-
-
+            <div class="fontCaption">Font family</div>
+            <div class="fontsizeOption" onclick='setFontFamily("Impact,Charcoal,sans-serif")'>
+              <button class="fontButton D">Family</button>  
+            </div>
+            <div class="fontsizeOption" onclick='setFontFamily("Times New Roman, Times, serif")'>
+              <button class="fontButton E">Family</button>  
+            </div>
+            <div class="fontsizeOption" onclick='setFontFamily("Arial, Helvetica, sans-serif")'>
+              <button class="fontButton F">Family</button>  
+            </div>
         </div>
+
         <div class="fontPick">
-            <div class="fontsizeOption A" onclick='setFontsize("regular")'>A</div>
-            <div class="fontsizeOption B" onclick='setFontsize("large")'>aa</div>
-            <div class="fontsizeOption C" onclick='setFontsize("xlarge")'>aa</div>
+            <div class="fontCaption">Font size</div>
+            <div class="fontsizeOption" onclick='setFontsize("15px")'>
+              <button class="fontButton A">Aa</button>  
+            </div>
+            <div class="fontsizeOption" onclick='setFontsize("20px")'>
+              <button class="fontButton B">Aa</button>  
+            </div>
+            <div class="fontsizeOption" onclick='setFontsize("25px")'>
+              <button class="fontButton C">Aa</button>  
+            </div>
         </div>
         <select id="countrySelect" name="country" class="countryList" onchange="setCountry()">
                 <option value="ENG">English</option>
