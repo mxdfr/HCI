@@ -425,7 +425,13 @@
 
   .fontPick {
 	width:100%;
+	margin-top:10px;
+	margin-bottom:5px;
   }
+  .fontCaption {
+	  height:20%;
+	  text-align: center;
+	}
 
   .fontsizeOption {
 	float: left;
@@ -433,17 +439,18 @@
 	position: initial;
 	vertical-align:center;
 	text-align:center;
+	margin-bottom:20px;
   }
   .A {
-	  font-size:22px;
+	  font-size:15px;
   }
   
   .B {
-	  font-size:32px;
+	  font-size:20px;
   }
 
   .C {
-	  font-size:42px;
+	  font-size:25px;
   }
 
   .D {
@@ -451,9 +458,24 @@
   }
 
   .E {
-	  font-family:Verdana, Geneva, sans-serif;
+	  font-family: Verdana,Geneva,sans-serif; 
   }
   
   .F {
 	  font-family:Helvetica, sans-serif;
+  }
+
+  .fontButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	width:90px;
+	height:50px;
+	padding:10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
   }

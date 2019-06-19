@@ -381,45 +381,71 @@ h1 {
 /* line 426, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontPick {
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-/* line 430, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 431, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+.fontCaption {
+  height: 20%;
+  text-align: center;
+}
+
+/* line 436, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontsizeOption {
   float: left;
   width: calc(100% / 3);
   position: initial;
   vertical-align: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-/* line 437, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 444, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .A {
-  font-size: 22px;
+  font-size: 15px;
 }
 
-/* line 441, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 448, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .B {
-  font-size: 32px;
+  font-size: 20px;
 }
 
-/* line 445, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 452, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .C {
-  font-size: 42px;
+  font-size: 25px;
 }
 
-/* line 449, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 456, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 453, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 460, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .E {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana,Geneva,sans-serif;
 }
 
-/* line 457, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 464, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .F {
   font-family: Helvetica, sans-serif;
+}
+
+/* line 468, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+.fontButton {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  width: 90px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
 /*# sourceMappingURL=../css/style.map */
