@@ -412,23 +412,40 @@ h1 {
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
-  background-color: #f1f1f1;
 }
 
-/* line 457, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 455, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+.flagcontainer {
+  float: left;
+  width: calc(100% / 3);
+  position: initial;
+  vertical-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 464, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+.flag {
+  width: 65%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 472, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontPick {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 462, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 477, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontCaption {
   height: 20%;
   text-align: center;
 }
 
-/* line 467, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 482, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontsizeOption {
   float: left;
   width: calc(100% / 3);
@@ -438,37 +455,37 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 475, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 490, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .A {
   font-size: 15px;
 }
 
-/* line 479, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 494, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .B {
   font-size: 20px;
 }
 
-/* line 483, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 498, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .C {
   font-size: 25px;
 }
 
-/* line 487, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 502, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 491, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 506, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .E {
   font-family: Verdana,Geneva,sans-serif;
 }
 
-/* line 495, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 510, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .F {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 499, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 514, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .fontButton {
   background-color: #4CAF50;
   /* Green */

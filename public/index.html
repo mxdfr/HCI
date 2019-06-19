@@ -38,11 +38,18 @@
               <button class="fontButton C">Aa</button>  
             </div>
         </div>
-        <select id="countrySelect" name="country" class="countryList" onchange="setCountry()">
-                <option value="ENG">English</option>
-                <option value="DUT">Dutch</option>
-                <option value="FRE">French</option>
-        </select>
+        <div id="countrySelect" class="countryList">
+            <div class="flagcontainer">
+                <img src="img/engflag.png" class="flag" onclick="setLanguage('english')"/>
+            </div>
+            <div class="flagcontainer">
+                <img src="img/dutflag.png" class="flag" onclick="setLanguage('nederlands')"/>
+            </div>
+            <div class="flagcontainer">
+                <img src="img/freflag.png" class="flag" onclick="setLanguage('french')"/>
+            </div>
+            <div id="currentLanguage"></div>
+        </div>
         <button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
     </div>
 </div>

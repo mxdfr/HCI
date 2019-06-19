@@ -143,10 +143,10 @@ $(document).ready(function(){
   }
 });
 
-function setCountry() {
-  var x = document.getElementById("countrySelect");
-  var selectedCountry = x.options[x.selectedIndex].value;
-  localStorage.setItem("language", selectedCountry);
+
+function setLanguage(language) {
+  localStorage.setItem("language", language)
+  document.getElementById("currentLanguage").innerHTML = "Current: " + language
 }
 
 function setFontsize(size) {
@@ -157,7 +157,7 @@ function setFontsize(size) {
   var element = elements[i];
   element.style.fontSize = size;}
 
-  var elements = document.getElementsByClassName('accordion');
+  var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   element.style.fontSize = size;}
@@ -187,7 +187,7 @@ function setFontFamily(family) {
   var element = elements[i];
   element.style.fontFamily = family;
 
-  var elements = document.getElementsByClassName('accordion');
+  var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   element.style.fontFamily = family;}
@@ -205,6 +205,6 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = size;}
+  element.style.fontFamily = family;}
 }
 }
