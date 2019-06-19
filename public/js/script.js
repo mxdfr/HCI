@@ -15,6 +15,17 @@ $( document ).ready(function() {
   }
 });
 
+$(function() {
+  $(".progressbar > span").each(function() {
+    $(this)
+      .data("origWidth", $(this).width())
+      .width(0)
+      .animate({
+        width: $(this).data("origWidth")
+      }, 1200);
+  });
+});
+
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
