@@ -1,77 +1,76 @@
-	//MIXINS
+//MIXINS
+// Breakpoints We use for making the web app responsive
+// Usage: @include bp(W1000) { height: 80px; }
+@mixin bp($point) {
+	@if $point == M1600 {
+		@media (min-width: 1600px) { @content; }
+	}
+	@else if $point == W1650 {
+		@media (max-width: 1650px) { @content; }
+	}
+	@else if $point == W1600 {
+		@media (max-width: 1600px) { @content; }
+	}
+	@else if $point == W1450 {
+		@media (max-width: 1450px) { @content; }
+	}
+	@else if $point == M1300{
+		@media (min-width: 1300px) { @content; }
+	}
+	@else if $point == W1250 {
+		@media (max-width: 1250px) { @content; }
+	}
+	@else if $point == W1200 {
+		@media (max-width: 1200px) { @content; }
+	}
+	@else if $point == M1000{
+		@media (min-width: 1000px) { @content; }
+	}
+	@else if $point == W1000{
+		@media (max-width: 1000px) { @content; }
+	}
+	@else if $point == M900{
+		@media (min-width: 900px) { @content; }
+	}
+	@else if $point == W900{
+		@media (max-width: 900px) { @content; }
+	}
+	@else if $point == W850{
+		@media (max-width: 850px) { @content; }
+	}
+	@else if $point == M768 {
+		@media (min-width: 768px) { @content; }
+	}
+	@else if $point == W768 {
+		@media (max-width: 768px) { @content; }
+	}
+	@else if $point == W600 {
+		@media (max-width: 600px) { @content; }
+	}
+	@else if $point == W550 { // Container Fix
+		@media (max-width: 550px) { @content; }
+	}
+	@else if $point == W500 { // Container Fix
+		@media (max-width: 500px) { @content; }
+	}
+	@else if $point == W480 { // Container Fix
+		@media (max-width: 480px) { @content; }
+	}
+	@else if $point == W420 {
+		@media (max-width: 420px) { @content; }
+	}
+	@else if $point == W350 { // Container Fix
+		@media (max-width: 350px) { @content; }
+	}
+}
 
-		// Responsive Breakpoints
-		// Usage: @include bp(W1000) { height: 80px; }
-		@mixin bp($point) {
-		    @if $point == M1600 {
-		        @media (min-width: 1600px) { @content; }
-		    }
-		     @else if $point == W1650 {
-		        @media (max-width: 1650px) { @content; }
-		    }
-		    @else if $point == W1600 {
-		        @media (max-width: 1600px) { @content; }
-		    }
-		    @else if $point == W1450 {
-		        @media (max-width: 1450px) { @content; }
-			}
-			@else if $point == M1300{
-		        @media (min-width: 1300px) { @content; }
-		    }
-		    @else if $point == W1250 {
-		        @media (max-width: 1250px) { @content; }
-		    }
-		    @else if $point == W1200 {
-		        @media (max-width: 1200px) { @content; }
-			}
-			@else if $point == M1000{
-		        @media (min-width: 1000px) { @content; }
-		    }
-		    @else if $point == W1000{
-		        @media (max-width: 1000px) { @content; }
-			}
-			@else if $point == M900{
-		        @media (min-width: 900px) { @content; }
-		    }
-		    @else if $point == W900{
-		        @media (max-width: 900px) { @content; }
-		    }
-		    @else if $point == W850{
-		        @media (max-width: 850px) { @content; }
-		    }
-		    @else if $point == M768 {
-		        @media (min-width: 768px) { @content; }
-		    }
-		    @else if $point == W768 {
-		        @media (max-width: 768px) { @content; }
-		    }
-		    @else if $point == W600 {
-		        @media (max-width: 600px) { @content; }
-		    }
-		    @else if $point == W550 { // Container Fix
-		        @media (max-width: 550px) { @content; }
-			}
-			@else if $point == W500 { // Container Fix
-		        @media (max-width: 500px) { @content; }
-		    }
-		    @else if $point == W480 { // Container Fix
-		        @media (max-width: 480px) { @content; }
-		    }
-		    @else if $point == W420 {
-		        @media (max-width: 420px) { @content; }
-		    }
-		    @else if $point == W350 { // Container Fix
-		        @media (max-width: 350px) { @content; }
-		    }
-		}
-
-		//	Transitions
-		@mixin transition($time...) {
-		    -moz-transition: all $time + 's' ease;
-		    -o-transition: all $time + 's' ease;
-		    -webkit-transition: all $time + 's' ease;
-		    transition: all $time + 's' ease;
-		}
+//	Transitions
+@mixin transition($time...) {
+	-moz-transition: all $time + 's' ease;
+	-o-transition: all $time + 's' ease;
+	-webkit-transition: all $time + 's' ease;
+	transition: all $time + 's' ease;
+}
 
 	body{
 		background-color: #f8f9fb;
@@ -228,6 +227,7 @@
 	.white-block-wrapper {
 		max-width: 700px;
 		margin: auto;
+		margin-bottom: 190px;
 		.white-block {
 			max-width: 700px;
 			margin: auto;
