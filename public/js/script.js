@@ -212,3 +212,10 @@ function setFontFamily(family) {
   element.style.fontFamily = family;}
 }
 }
+
+function resetSettings() {
+  localStorage.setItem("language",null)
+  localStorage.setItem("fontfamily",null)
+  localStorage.setItem("fontsize",null)
+  location.reload()
+}
