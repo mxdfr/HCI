@@ -1,11 +1,11 @@
-/* line 76, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 75, /Users/maxdefroe/HCI/public/scss/style.scss */
 body {
   background-color: #f8f9fb;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
 }
 
-/* line 81, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 80, /Users/maxdefroe/HCI/public/scss/style.scss */
 * {
   box-sizing: border-box;
   -moz-transition: all "1s" ease;
@@ -14,13 +14,13 @@ body {
   transition: all "1s" ease;
 }
 
-/* line 86, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 85, /Users/maxdefroe/HCI/public/scss/style.scss */
 .accentcolortext {
   color: #e1787d;
 }
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-/* line 92, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 91, /Users/maxdefroe/HCI/public/scss/style.scss */
 .setting {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -31,7 +31,7 @@ body {
   background-color: white;
 }
 
-/* line 101, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 100, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -42,7 +42,7 @@ body {
   background-color: black;
 }
 
-/* line 111, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 110, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button-logged {
   position: absolute;
   margin-top: 10px;
@@ -50,7 +50,7 @@ body {
   width: 25%;
 }
 
-/* line 118, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 117, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button-logged-img {
   float: right;
   background-color: black;
@@ -58,14 +58,14 @@ body {
   margin-top: 10px;
 }
 
-/* line 125, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 124, /Users/maxdefroe/HCI/public/scss/style.scss */
 .loginFooter {
   width: 100%;
   height: 100%;
 }
 
 /* The popup form - hidden by default */
-/* line 130, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 129, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-popup {
   height: 100%;
   width: 100%;
@@ -79,7 +79,7 @@ body {
 }
 
 /* Add styles to the form container */
-/* line 143, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 142, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container {
   max-width: 100%;
   padding: 10px;
@@ -89,7 +89,7 @@ body {
 }
 
 /* Full-width input fields */
-/* line 152, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 151, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -100,7 +100,7 @@ body {
 }
 
 /* When the inputs get focus, do something */
-/* line 162, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 161, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
@@ -108,7 +108,7 @@ body {
 }
 
 /* Set a style for the submit/login button*/
-/* line 170, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 169, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container label {
   margin: auto;
   text-align: center;
@@ -118,7 +118,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 177, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
@@ -133,7 +133,7 @@ body {
 }
 
 /* Add a red background color to the cancel button */
-/* line 193, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 192, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .cancel {
   background-color: transparent;
   color: #3a3a3a;
@@ -142,18 +142,18 @@ body {
 }
 
 /* Add some hover effects to buttons */
-/* line 201, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 200, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-/* line 205, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 204, /Users/maxdefroe/HCI/public/scss/style.scss */
 h1 {
   font-size: 38px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 210, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 209, /Users/maxdefroe/HCI/public/scss/style.scss */
 .header-image {
   max-width: 700px;
   margin-top: 40px !important;
@@ -169,16 +169,17 @@ h1 {
   background-image: url("../img/par.jpg");
 }
 
-/* line 224, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 223, /Users/maxdefroe/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 228, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 227, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper {
   max-width: 700px;
   margin: auto;
+  margin-bottom: 190px;
 }
 
 /* line 231, /Users/maxdefroe/HCI/public/scss/style.scss */
@@ -217,7 +218,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* line 228, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 227, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
   }
