@@ -1,26 +1,18 @@
 $( document ).ready(function() {
-    var coll = document.getElementsByClassName("white-block");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        } 
-      });
-    }
-    $(".progressbar > span").each(function() {
-      $(this)
-        .data("origWidth", $(this).width())
-        .width(0)
-        .animate({
-          width: $(this).data("origWidth")
-        }, 1200);
+  var acc = document.getElementsByClassName("white-block");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
     });
+  }
 });
 
 function login() {
@@ -34,7 +26,7 @@ $( document ).ready(function() {
     var g = document.getElementById("graph")
     g.innerHTML = "Hi " + name + ", glad to see you"
     document.getElementById("recommend_register").style.display = 'none';
-    document.getElementById("open-button").style.visibility = 'hidden';
+    document.getElementById("open-button").style.display = 'none';
     document.getElementById("userName").innerHTML = localStorage.getItem("name")
     document.getElementById("userName").style.visibility = 'block';
     document.getElementById("second-button").style.visibility = 'block';
@@ -67,6 +59,15 @@ function Logout() {
   document.getElementById("logOut").style.display = "none";
 }
 
+function showSettings() {
+  document.getElementById("settingsForm").style.display = "block";
+}
+
+function closeSettings() {
+  document.getElementById("settingsForm").style.display = "none";
+
+}
+
 function speechMe(text) {
   var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
   window.speechSynthesis.speak(msg);
@@ -79,11 +80,13 @@ function changeLogin() {
     document.getElementById("age").style.display = "block";
     document.getElementById("born").style.display = "block";
     document.getElementById("smoke").style.display = "block";
+    document.getElementsByName("name")[0].placeholder = "Username (max 8 characters)"
   } else {
     document.getElementById("loginRegister").innerHTML = "Login"
     document.getElementById("age").style.display = "none";
     document.getElementById("born").style.display = "none";
     document.getElementById("smoke").style.display = "none";
+    document.getElementsByName("name")[0].placeholder = "Username"
 
   }
 }
@@ -128,3 +131,13 @@ $(document).ready(function(){
     a.innerHTML = "Therefore, you and your baby are healthy"
   }
 });
+
+function setCountry() {
+  var x = document.getElementById("countrySelect");
+  var selectedCountry = x.options[x.selectedIndex].value;
+  localStorage.setItem("language", selectedCountry);
+}
+
+function setFontsize(size) {
+  localStorage.setItem("fontsize", size)
+}
