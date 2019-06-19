@@ -91,6 +91,7 @@ function speechMe(text) {
 function changeLogin() {
   var checkBox = document.getElementById("checkBox");
   if (checkBox.checked == true){
+    $('.form-container').animate({paddingTop: "30px"});
     document.getElementById("loginRegister").innerHTML = "Register"
     document.getElementById("age").style.display = "block";
     document.getElementById("born").style.display = "block";
