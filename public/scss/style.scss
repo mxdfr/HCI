@@ -104,7 +104,6 @@
 		display:block;
 		margin-right:auto;
 		margin-left:auto;
-		background-color:black;
 	}
 
 	.open-button-logged {
@@ -310,27 +309,17 @@
 		width: 100%;
 		height:50px;
 		margin-left: -8px;
+		z-index: 99999;
 		padding: 0px;
 		background-color: white;
+		border-top: 2px solid #a8a9ab;
 		border-radius: 7px 7px 0px 0px;
 		.footer {
 			float: left;
 			height:90%;
 			width: calc(100% / 3);
 			position: initial;
-			background-color: white;
         }
-	}
-	.footerhead {
-		width:100%;
-		height:3px;
-		background-color:red;
-	}
-    .redline {
-		width:3px;
-		height:100%;
-		background-color:red;
-		float:right;
 	}
 // .personal_information{
 //     font-size: 20px;
