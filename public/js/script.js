@@ -151,19 +151,37 @@ function setCountry() {
 
 function setFontsize(size) {
   localStorage.setItem("fontsize", size)
+  document.body.style.fontSize = size;
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;
+  element.style.fontSize = size;}
 
   var elements = document.getElementsByClassName('accordion');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   element.style.fontSize = size;}
-}}
+
+  var elements = document.getElementsByClassName('btn');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;}
+
+  var elements = document.getElementsByClassName('countryList');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;}
+
+  var elements = document.getElementsByClassName('registerInput');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontSize = size;}
+
+}
 
 function setFontFamily(family) {
   localStorage.setItem("fontfamily", family)
+  document.body.style.fontFamily = family;
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
@@ -172,6 +190,21 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('accordion');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.style.fontFamily = family;}
+
+  var elements = document.getElementsByClassName('btn');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = family;}
+
+  var elements = document.getElementsByClassName('countryList');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = family;}
+
+  var elements = document.getElementsByClassName('registerInput');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = size;}
 }
 }
