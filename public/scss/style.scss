@@ -158,7 +158,6 @@ body {
 
 .open-button-logged-img {
 	float:right;
-	background-color:black;
 	width:20%;
 	margin-top:10px;
 }
@@ -473,87 +472,112 @@ h1 {
 	overflow: hidden;
 }
   
-  .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
+.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
 	font-size: 15px;
 	margin: 10px;
-    z-index: 3;
-    position: relative;
+	z-index: 3;
+	position: relative;
 	border-radius: 0px 0px 10px 10px;
-  }
+}
 
-  .countryList {
+.countryList {
+    margin-top: 50px;
 	width: 100%;
 	padding: 16px 20px;
 	border: none;
 	border-radius: 4px;
-  }
-  .flagcontainer {
+}
+.flagcontainer {
 	float: left;
 	width: calc(100% / 3);
 	position: initial;
 	vertical-align:center;
 	text-align:center;
 	margin-bottom:20px;
-  }
+}
 
-  .flag {
+.flag {
 	width:65%;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	
-  }
+}
 
-  .fontPick {
+.fontPick {
 	width:100%;
 	margin-top:10px;
 	margin-bottom:5px;
-  }
-  .fontCaption {
-	  height:20%;
-	  text-align: center;
+}
+.fontCaption {
+	height:20%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.fontButtonWrapper {
+	background-color: #ececec;
+	display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+}
+.fontSizeWrapper {
+    background-color: #ececec;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+}
+.fontpopup {
+	.form-container {
+		padding-top: 30px;
 	}
-
-  .fontsizeOption {
+}
+.fontsizeOption {
+	margin: 5px;
 	float: left;
-	width: calc(100% / 3);
+	background: #ffffff;
+    width: calc((100% / 3) - 10px);
+    border-radius: 7px;
 	position: initial;
 	vertical-align:center;
 	text-align:center;
-	margin-bottom:20px;
-  }
-  .A {
-	  font-size:15px;
-  }
-  
-  .B {
-	  font-size:20px;
-  }
+}
+.fontsizeOption.active {
+	-webkit-box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,0.19);
+}
 
-  .C {
-	  font-size:25px;
-  }
+.A {
+	font-size:15px;
+}
 
-  .D {
-	  font-family:Arial, Helvetica, sans-serif;
-  }
+.B {
+	font-size:20px;
+}
 
-  .E {
-	  font-family: Verdana,Geneva,sans-serif; 
-  }
-  
-  .F {
-	  font-family:Helvetica, sans-serif;
-  }
+.C {
+	font-size:25px;
+}
 
-  .fontButton {
-	background-color: #4CAF50; /* Green */
+.D {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.E {
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.F {
+	font-family:Helvetica, sans-serif;
+}
+
+.fontButton {
+	background-color: transparent;
 	border: none;
-	color: white;
+	color: black;
 	width:90px;
 	height:50px;
 	padding:10px;
@@ -562,5 +586,7 @@ h1 {
 	display: inline-block;
 	margin: 4px 2px;
 	cursor: pointer;
-	border-radius: 12px;
-  }
+	&:focus {
+		outline: none;
+	}
+}

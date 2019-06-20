@@ -26,6 +26,20 @@ $(function() {
   });
 });
 
+$(function() {                     
+  $(".fontButtonWrapper > .fontsizeOption").click(function() { 
+    $(".fontButtonWrapper > .fontsizeOption").removeClass("active");  
+    $(this).addClass("active");   
+  });
+});
+
+$(function() {                     
+  $(".fontSizeWrapper > .fontsizeOption").click(function() { 
+    $(".fontSizeWrapper > .fontsizeOption").removeClass("active");  
+    $(this).addClass("active");   
+  });
+});
+
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
@@ -91,6 +105,7 @@ function speechMe(text) {
 function changeLogin() {
   var checkBox = document.getElementById("checkBox");
   if (checkBox.checked == true){
+    $('.form-container').animate({paddingTop: "30px"});
     document.getElementById("loginRegister").innerHTML = "Register"
     document.getElementById("age").style.display = "block";
     document.getElementById("born").style.display = "block";

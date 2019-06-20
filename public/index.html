@@ -11,32 +11,36 @@
     <title>PAR</title>
 </head>
 <body>
-<div class="form-popup" id="settingsForm">
+<div class="form-popup fontpopup" id="settingsForm">
     <div class="form-container">
         <button id="hond" onclick="resetSettings()"></button>
         <div class="fontPick">
-            <div class="fontCaption">Font family</div>
-            <div class="fontsizeOption" onclick='setFontFamily("Impact,Charcoal,sans-serif")'>
-              <button class="fontButton D">Family</button>  
-            </div>
-            <div class="fontsizeOption" onclick='setFontFamily("OpenDyslexic3, Times, serif")'>
-              <button class="fontButton E">Family</button>  
-            </div>
-            <div class="fontsizeOption" onclick='setFontFamily("Helvetica, sans-serif")'>
-              <button class="fontButton F">Family</button>  
+            <div class="fontCaption">Choose your desired font:</div>
+            <div class="fontButtonWrapper">
+              <div class="fontsizeOption" onclick='setFontFamily("Arial,sans-serif")'>
+                <button class="fontButton D">Arial</button>  
+              </div>
+              <div class="fontsizeOption" onclick='setFontFamily("OpenDyslexic3, Times, serif")'>
+                <button class="fontButton E">Dyslexic</button>  
+              </div>
+              <div class="fontsizeOption" onclick='setFontFamily("Helvetica, sans-serif")'>
+                <button class="fontButton F">Helvetica</button>  
+              </div>
             </div>
         </div>
 
-        <div class="fontPick">
+        <div class="fontSizePick">
             <div class="fontCaption">Font size</div>
-            <div class="fontsizeOption" onclick='setFontsize("15px")'>
-              <button class="fontButton A">Aa</button>  
-            </div>
-            <div class="fontsizeOption" onclick='setFontsize("20px")'>
-              <button class="fontButton B">Aa</button>  
-            </div>
-            <div class="fontsizeOption" onclick='setFontsize("25px")'>
-              <button class="fontButton C">Aa</button>  
+            <div class="fontSizeWrapper">
+              <div class="fontsizeOption" onclick='setFontsize("15px")'>
+                <button class="fontButton A">Aa</button>  
+              </div>
+              <div class="fontsizeOption" onclick='setFontsize("20px")'>
+                <button class="fontButton B">Aa</button>  
+              </div>
+              <div class="fontsizeOption" onclick='setFontsize("25px")'>
+                <button class="fontButton C">Aa</button>  
+              </div>
             </div>
         </div>
         <div id="countrySelect" class="countryList">
