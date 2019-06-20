@@ -214,7 +214,7 @@ function setFontFamily(family) {
 }
 
 function resetSettings() {
-  localStorage.setItem("language",null)
+  localStorage.setItem("language",'english')
   localStorage.setItem("fontfamily",null)
   localStorage.setItem("fontsize",null)
   location.reload()
