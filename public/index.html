@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
+  <!-- linking scripts -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +12,7 @@
     <title>PAR</title>
 </head>
 <body>
+  <!-- The settings page -->
 <div class="form-popup fontpopup" id="settingsForm">
     <div class="form-container">
         <button id="hond" onclick="resetSettings()"></button>
@@ -58,7 +60,7 @@
         <button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
     </div>
 </div>
-
+<!-- Login page -->
 <div class="form-popup" id="myForm">
   <form class="form-container">
     <input type="text" placeholder="Username" name="name" id="name" class="registerInput" required>
@@ -76,13 +78,13 @@
 
 <div class="form-popup" id="logOut">
   <form class="form-container">
-    <p>Hier komt persoonlijke shit te staan</p>
     <button class="btn" onclick="Logout()">Logout</button>
     <button class="btn cancel" onclick="closeLogout()">Cancel</button>
   </form>
 </div>
 
 <div class="header-image"></div>
+<!-- Upper welcome message -->
 <div id="recommend_register" class="first_block">
     <div class="grid"> 
         <div class="shadow-block">
@@ -93,6 +95,7 @@
         </div>
       </div>
 </div>
+<!-- Personal information shown if the player is logged in -->
 <div id="personal_information" class ="personal_information">
     <div class="white-block">
       <p id="graph"></p>
@@ -110,12 +113,13 @@
       </div>
     </div>
 </div>
+<!-- Chat bot -->
 <div id="chat_bot" class = "chat_bot" style="display: none;">
   <p>Hi, sit down, relax, and talk to me. I will listen to you and provide you with the best feedback I can</p>
   <input type="text">
   <input type="submit">
 </div>
-
+<!-- BCT-1 Content -->
 <div class="white-block-wrapper"> 
   <button class="white-block"><img class="icon" src="img/1red.png"><p>Problem solving</p></button>
   <div class="panel">
@@ -128,7 +132,7 @@
       <li>If you experience withdrawal symptoms use nicotine replacement therapy (NRT), Zyban or Champix. Your doctor will tell you which is best suited to you.</li>
     </ol>
   </div>
-
+<!-- BCT-2 Content -->
   <button class="white-block"><img class="icon" src="img/2red.png"><p>Health consquences</p></button>
   <div class="panel">
     <ul>
@@ -141,12 +145,12 @@
         <li>Smoking causes diminished overall health, increased absenteeism from work, and increased health care utilization and cost.</li>
     </ul>
   </div>
-
+<!-- BCT-3 Content -->
   <button class="white-block"><img class="icon" src="img/3red.png"><p>Social &amp; Environmental consequences</p></button>
   <div class="panel">
     <p>ouwe pik</p>
   </div>
-
+<!-- BCT-4 Content -->
   <button class="white-block"><img class="icon" src="img/4red.png"><p>Reduce negative emotions</p></button>
   <div class="panel">
     <h1>Tip 1: Identify the sources of stress in your life</h1>
@@ -164,7 +168,7 @@
     <b>Keep your sense of humor. </b>This includes the ability to laugh at yourself. The act of laughing helps your body fight stress in a number of ways.<br>
     <b>Take up a relaxation practice. </b>Relaxation techniques such as yoga, meditation, and deep breathing activate the body’s relaxation response, a state of restfulness that is the opposite of the fight or flight or mobilization stress response. As you learn and practice these techniques, your stress levels will decrease and your mind and body will become calm and centered.</p>
   </div>
-  
+  <!-- BCT-5 Content -->
   <button class="white-block"><img class="icon" src="img/5red.png"><p>Social support</p></button>
   <div class="panel">
     <p>Social support</p>
@@ -178,6 +182,7 @@
   </div>
 </div>
 <div class="page-spaceing"></div>
+<!-- Footer with clickable images to open settings, login/register page and live chat -->
 <div id="footer-container">
   <div class="footerhead"></div>
   <div class="footer"> 
@@ -192,7 +197,6 @@
   </div>
   <div class="footer">
         <a href="javascript:void(Tawk_API.toggle())"><img src="img/chat.png"/ class="chat"></a>
-    <!-- chat bot komt hier -->
   </div>
 </div>
 

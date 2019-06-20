@@ -14,7 +14,7 @@ $( document ).ready(function() {
     });
   }
 });
-
+// Progressbar
 $(function() {
   $(".progressbar > span").each(function() {
     $(this)
@@ -39,17 +39,17 @@ $(function() {
     $(this).addClass("active");   
   });
 });
-
+// Store the name of the user in localStorage so that he remains logged in after closing the browser
 function login() {
    var name = document.getElementById("name").value
    localStorage.setItem("name", name)
 } 
-
+// On load set the stored language fontfamily and fontsize of the user, stores in the localStorage.
 $( document ).ready(function() {
   setLanguage(localStorage.getItem("language"))
   setFontFamily(localStorage.getItem("fontfamily"))
   setFontsize(localStorage.getItem("fontsize"))
-
+// If the user has information in his localStorage he will be logged in automatically
    if (localStorage.getItem("name") != "null" && localStorage.getItem("name") != null ) {
     var name = localStorage.getItem("name")
     var g = document.getElementById("graph")
@@ -66,7 +66,7 @@ $( document ).ready(function() {
     document.getElementById("personal_information").style.display = 'none';
   }
 });
-
+// functions to show and hide different DIV, used to show a lot of information in a single-page webapp
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
@@ -96,12 +96,12 @@ function closeSettings() {
   document.getElementById("settingsForm").style.display = "none";
 
 }
-
+// Read out the text
 function speechMe(text) {
   var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
   window.speechSynthesis.speak(msg);
 }
-
+// When "I dont have an account yet" is checked show more than just the username and password so that a user is able to create an account
 function changeLogin() {
   var checkBox = document.getElementById("checkBox");
   if (checkBox.checked == true){
@@ -151,6 +151,8 @@ function changeLogin() {
 
 // }
 
+
+// Hardcoded one user that is called Maggie, if the username is maggie show some personal information
 $(document).ready(function(){
   if (localStorage.getItem("name") == "Maggie"){
     var g = document.getElementById("graph")
@@ -162,12 +164,13 @@ $(document).ready(function(){
   }
 });
 
-
+// Set the language of a user based on which flag is picked
 function setLanguage(language) {
   localStorage.setItem("language", language)
   document.getElementById("currentLanguage").innerHTML = "Current: " + language
 }
 
+// Set the fontsize of a user based on which fontsize is picked
 function setFontsize(size) {
   localStorage.setItem("fontsize", size)
   document.body.style.fontSize = size;
@@ -198,6 +201,7 @@ function setFontsize(size) {
 
 }
 
+// Set the fontfamily of a user based on which family is picked
 function setFontFamily(family) {
   localStorage.setItem("fontfamily", family)
   document.body.style.fontFamily = family;
@@ -227,7 +231,7 @@ function setFontFamily(family) {
   element.style.fontFamily = family;}
 }
 }
-
+// Reset all the settings (language, fontFamily and fontsize) to the settings of the first load.
 function resetSettings() {
   localStorage.setItem("language",'english')
   localStorage.setItem("fontfamily",null)
