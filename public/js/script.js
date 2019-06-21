@@ -68,33 +68,33 @@ $( document ).ready(function() {
 });
 // functions to show and hide different DIV, used to show a lot of information in a single-page webapp
 function openForm() {
-  document.getElementById("myForm").style.display = "block";
+  $("#myForm").slideDown();
 }
 
 function closeForm() {
-  document.getElementById("myForm").style.display = "none";
+  $("#myForm").slideUp();
 }
 
 function openLogout() {
-  document.getElementById("logOut").style.display = "block";
+  $("#logOut").slideDown();
 }
 
 function closeLogout() {
-  document.getElementById("logOut").style.display = "none";
+  $("#logOut").slideUp();
 }
 
 function Logout() {
   localStorage.setItem("name", null)
-  document.getElementById("logOut").style.display = "none";
+  $("#logOut").slideUp();
 }
 
 function showSettings() {
-  document.getElementById("settingsForm").style.display = "block";
+  $("#settingsForm").slideDown();
 }
 
 function closeSettings() {
-  document.getElementById("settingsForm").style.display = "none";
-
+  $("#settingsForm").slideUp();
+ 
 }
 // Read out the text
 function speechMe(text) {
