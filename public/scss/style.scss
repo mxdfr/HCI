@@ -244,7 +244,7 @@ body {
 }
 
 /* Add a red background color to the cancel button */
-.form-container .cancel {
+.form-container .btn-cancel {
 	background-color: transparent;
 	color: #3a3a3a;
 	font-weight: 800;
@@ -496,6 +496,47 @@ h1 {
 	z-index: 3;
 	position: relative;
 	border-radius: 0px 0px 10px 10px;
+	p {
+		width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.innerblock {
+		background-color: #fff;
+		width: calc(100% - 40px);
+		-webkit-box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.06);
+		-moz-box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.06);
+		box-shadow: 0px 0px 47px 2px rgba(0,0,0,0.06);
+		display: inline-block;
+		border-radius: 20px;
+		margin: 20px;
+		.innerimg {
+			width: calc(20% - 20px);
+			float: left;
+			margin: 20px;
+		}
+		p {
+		    width: calc(80% - 20px);
+			float: left;
+			padding-top: 40px;
+			color: #944f4c;
+		}
+	}
+	.sourcebutton {
+		float: right;
+		background-color: #e0dcdc;
+		color: #515151;
+		text-decoration: none;
+		padding: 3px 10px;
+		border-radius: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 12px;
+		&:hover {
+			background-color: darken(#e0dcdc, 10%);
+			color: #fff;
+		}
+	}
 }
 .langCaption {
     text-align: center;
@@ -560,6 +601,21 @@ h1 {
 .fontpopup {
 	.form-container {
 		padding-top: 30px;
+		.btn-reset {
+			background-color: #ececec;
+			color: #252525;
+			.buttonicon {
+				height: 40px;
+				margin-bottom: -15px;
+				margin-top: -9px;
+				margin-right: 10px;
+			}
+		}
+		.btn-cancel {
+			background-color: #73c074;
+			color: #ffffff;
+			border: 3px solid #73c074;
+		}
 	}
 }
 .fontsizeOption {

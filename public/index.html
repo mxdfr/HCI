@@ -58,8 +58,8 @@
                 <img src="img/freflag.png" class="flag" onclick="setLanguage('french')"/>
             </div>
         </div>
-        <button class="btn" id="reset" onclick="resetSettings()">Reset to default settings</button>
-        <button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
+        <button class="btn btn-reset" id="reset" onclick="resetSettings()"><img class="buttonicon" src="./img/reset2.png"/>Reset to default settings</button>
+        <button type="button" class="btn btn-cancel" onclick="closeSettings()">Close</button>
     </div>
 </div>
 <!-- Login page -->
@@ -124,7 +124,7 @@
 <!-- BCT-1 Content -->
 <div class="white-block-wrapper"> 
   <button class="white-block"><img class="icon" src="img/1red.png"><p>Problem solving</p></button>
-  <div class="panel">
+  <div id="panel-1" class="panel">
     <p>Five fules to avoid a relapse</p>
     <ol>
       <li>Avoid taking even one drag of a cigarette as this usually leads to a relapse. It is easier to refuse the first cigarette than the second.</li>
@@ -136,7 +136,7 @@
   </div>
 <!-- BCT-2 Content -->
   <button class="white-block"><img class="icon" src="img/2red.png"><p>Health consquences</p></button>
-  <div class="panel">
+  <div id="panel-2" class="panel">
     <ul>
         <li>Cigarette smoking causes more than 480,000 deaths each year in the United States. This is nearly one in five deaths.</li>
         <li>More than 10 times as many U.S. citizens have died prematurely from cigarette smoking than have died in all the wars fought by the United States.</li>
@@ -149,12 +149,12 @@
   </div>
 <!-- BCT-3 Content -->
   <button class="white-block"><img class="icon" src="img/3red.png"><p>Social &amp; Environmental consequences</p></button>
-  <div class="panel">
+  <div id="panel-3" class="panel">
     <p>ouwe pik</p>
   </div>
 <!-- BCT-4 Content -->
   <button class="white-block"><img class="icon" src="img/4red.png"><p>Reduce negative emotions</p></button>
-  <div class="panel">
+  <div id="panel-4" class="panel">
     <h1>Tip 1: Identify the sources of stress in your life</h1>
     <p>To identify your true sources of stress, look closely at your habits, attitude and excuses: 
     <ul>
@@ -172,7 +172,7 @@
   </div>
   <!-- BCT-5 Content -->
   <button class="white-block"><img class="icon" src="img/5red.png"><p>Social support</p></button>
-  <div class="panel">
+  <div id="panel-5" class="panel">
     <p>Social support</p>
     <ul>
         <li>Have a shared understanding in the part each would play in reducing smoking</li>

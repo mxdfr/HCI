@@ -159,13 +159,19 @@ function changeLogin() {
 // }
 
 
-// Hardcoded one user that is called Maggie, if the username is maggie show some personal information
+// Hardcoded one user that is called Maggie, if the username is maggie show some personal information for demonstation purposes
 $(document).ready(function(){
   if (localStorage.getItem("name") == "Maggie"){
     var g = document.getElementById("graph")
     g.innerHTML = "Hi Maggie, glad to see you. This is your current progress:"
     var s = document.getElementById("last_smoke")
-    s.innerHTML = "You haven't touched a sigarette for 321 days"
+    s.innerHTML = "You haven't touched a sigarette for 291 days"
+    $("#panel-2").html("<p>Quash your urge to smoke by looking through the consequences of smoking on you and you child.</p>\
+    <div class=\"innerblock\"><img class=\"innerimg\" src=\"./img/baby.jpg\"/><p>Your child is currenltly less than 1 month old<br>Especially in this period, inhaling secondhand smoke can have severe consequences on your baby.</p></div>\
+    <p>Exposure to siggarette smoke has severe implications on infants.<br><br>\
+    The most dangerous is the Sudden infant death syndrome (SIDS). Which will lead to a sudden death. Exposure to second hand smoke can increase this risk.\
+    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a><br><br>\
+    Children who breathe secondhand smoke can have more: Ear infections Coughs and colds Bronchitis or Pneumonia Tooth decay ")
     // var a = document.getElementById("age_baby")
     // a.innerHTML = "Therefore, you and your baby are healthy"
   }
