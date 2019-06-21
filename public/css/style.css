@@ -152,10 +152,12 @@ body {
   border: 3px solid #f1f1f1;
   z-index: 999999;
   opacity: 1;
+  overflow-y: scroll;
+  background-color: #fff;
 }
 
 /* Add styles to the form container */
-/* line 189, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 191, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container {
   max-width: 100%;
   padding: 10px;
@@ -165,7 +167,7 @@ body {
 }
 
 /* Full-width input fields */
-/* line 198, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 200, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -176,14 +178,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 198, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 200, /Users/maxdefroe/HCI/public/scss/style.scss */
   .form-container input[type=text], .form-container input[type=password] {
     font-size: 17px !important;
   }
 }
 
 /* When the inputs get focus, do something */
-/* line 211, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 213, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
@@ -191,7 +193,7 @@ body {
 }
 
 /* Set a style for the submit/login button*/
-/* line 219, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 221, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container label {
   margin: auto;
   text-align: center;
@@ -201,7 +203,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 227, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 229, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
@@ -216,14 +218,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 227, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 229, /Users/maxdefroe/HCI/public/scss/style.scss */
   .form-container .btn {
     font-size: 17px !important;
   }
 }
 
 /* Add a red background color to the cancel button */
-/* line 245, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 247, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .cancel {
   background-color: transparent;
   color: #3a3a3a;
@@ -232,18 +234,18 @@ body {
 }
 
 /* Add some hover effects to buttons */
-/* line 253, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 255, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-/* line 257, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 259, /Users/maxdefroe/HCI/public/scss/style.scss */
 h1 {
   font-size: 38px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 262, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 264, /Users/maxdefroe/HCI/public/scss/style.scss */
 .header-image {
   max-width: 700px;
   margin-top: 40px !important;
@@ -259,19 +261,19 @@ h1 {
   background-image: url("../img/par-s.jpg");
 }
 
-/* line 276, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 278, /Users/maxdefroe/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 280, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 282, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 283, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 285, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block {
   max-width: 700px;
   margin: auto;
@@ -288,7 +290,7 @@ h1 {
   text-align: left;
 }
 
-/* line 297, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 299, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -296,35 +298,35 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 303, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 305, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block:focus {
   outline: none;
 }
 
-/* line 307, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 309, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block.active {
   border-radius: 10px 10px 0px 0px;
 }
 
 @media (max-width: 768px) {
-  /* line 280, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 282, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
   }
-  /* line 313, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 315, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper .white-block p {
     font-size: 17px;
   }
 }
 
-/* line 327, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 329, /Users/maxdefroe/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 332, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 334, /Users/maxdefroe/HCI/public/scss/style.scss */
 .icon {
   max-width: 50px;
   margin: 20px;
@@ -332,24 +334,24 @@ h1 {
   float: left;
 }
 
-/* line 340, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 342, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 346, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 348, /Users/maxdefroe/HCI/public/scss/style.scss */
 .first_block {
   font-size: 16px;
   color: white;
   text-align: center;
 }
 
-/* line 353, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 355, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 359, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 361, /Users/maxdefroe/HCI/public/scss/style.scss */
 #footer-container {
   bottom: 0px;
   position: fixed;
@@ -363,7 +365,7 @@ h1 {
   border-radius: 7px 7px 0px 0px;
 }
 
-/* line 370, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 372, /Users/maxdefroe/HCI/public/scss/style.scss */
 #footer-container .footer {
   float: left;
   height: 90%;
@@ -371,13 +373,13 @@ h1 {
   position: initial;
 }
 
-/* line 396, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 398, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 399, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 401, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -387,7 +389,7 @@ h1 {
   text-align: center;
 }
 
-/* line 406, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 408, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information .white-block p {
   margin-top: 30px;
   font-size: 16px;
@@ -398,13 +400,13 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* line 396, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 398, /Users/maxdefroe/HCI/public/scss/style.scss */
   .personal_information {
     max-width: 90%;
   }
 }
 
-/* line 421, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 423, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar {
   height: 20px;
   /* Can be anything */
@@ -422,7 +424,7 @@ h1 {
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 
-/* line 436, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 438, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar > span {
   height: 20px !important;
   display: block;
@@ -450,7 +452,7 @@ h1 {
   overflow: hidden;
 }
 
-/* line 462, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 464, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar > span:after {
   content: "";
   position: absolute;
@@ -479,7 +481,7 @@ h1 {
   overflow: hidden;
 }
 
-/* line 487, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 489, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel {
   padding: 0 18px;
   display: none;
@@ -492,18 +494,27 @@ h1 {
   border-radius: 0px 0px 10px 10px;
 }
 
-/* line 499, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 500, /Users/maxdefroe/HCI/public/scss/style.scss */
+.langCaption {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/* line 505, /Users/maxdefroe/HCI/public/scss/style.scss */
 .countryList {
-  margin-top: 50px;
-  padding-top: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
   border: none;
   background-color: #ececec;
   display: inline-block;
+  padding-bottom: 4px;
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-/* line 508, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 516, /Users/maxdefroe/HCI/public/scss/style.scss */
 .flagcontainer {
   float: left;
   width: calc(100% / 3);
@@ -512,22 +523,29 @@ h1 {
   text-align: center;
 }
 
-/* line 516, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 523, /Users/maxdefroe/HCI/public/scss/style.scss */
 .flag {
   width: 65%;
   max-width: 100px;
   border: 10px solid #e0dfdf;
   border-radius: 20px;
+  opacity: 0.6;
 }
 
-/* line 523, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 531, /Users/maxdefroe/HCI/public/scss/style.scss */
+.flagcontainer.active .flag {
+  opacity: 1;
+  border: 10px solid #c7c5c5;
+}
+
+/* line 537, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontPick {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 528, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 542, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontCaption {
   height: 20%;
   text-align: center;
@@ -535,7 +553,7 @@ h1 {
   margin-top: 10px;
 }
 
-/* line 534, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 548, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButtonWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -543,7 +561,7 @@ h1 {
   border-radius: 10px;
 }
 
-/* line 540, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 554, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontSizeWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -551,12 +569,12 @@ h1 {
   border-radius: 10px;
 }
 
-/* line 547, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 561, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container {
   padding-top: 30px;
 }
 
-/* line 551, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 565, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption {
   margin: 5px;
   float: left;
@@ -568,44 +586,44 @@ h1 {
   text-align: center;
 }
 
-/* line 561, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 575, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption.active {
   -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
 }
 
-/* line 567, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 581, /Users/maxdefroe/HCI/public/scss/style.scss */
 .A {
   font-size: 15px;
 }
 
-/* line 571, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 585, /Users/maxdefroe/HCI/public/scss/style.scss */
 .B {
   font-size: 20px;
 }
 
-/* line 575, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 589, /Users/maxdefroe/HCI/public/scss/style.scss */
 .C {
   font-size: 25px;
 }
 
-/* line 579, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 593, /Users/maxdefroe/HCI/public/scss/style.scss */
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 583, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 597, /Users/maxdefroe/HCI/public/scss/style.scss */
 .E {
   font-family: Verdana,Geneva,sans-serif;
 }
 
-/* line 587, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 601, /Users/maxdefroe/HCI/public/scss/style.scss */
 .F {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 591, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 605, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton {
   background-color: transparent;
   border: none;
@@ -620,7 +638,7 @@ h1 {
   cursor: pointer;
 }
 
-/* line 603, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 617, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton:focus {
   outline: none;
 }

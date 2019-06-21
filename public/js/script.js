@@ -39,6 +39,13 @@ $(function() {
     $(this).addClass("active");   
   });
 });
+
+$(function() {                     
+  $("#countrySelect > .flagcontainer").click(function() { 
+    $("#countrySelect > .flagcontainer").removeClass("active");  
+    $(this).addClass("active");   
+  });
+});
 // Store the name of the user in localStorage so that he remains logged in after closing the browser
 function login() {
    var name = document.getElementById("name").value
@@ -158,16 +165,15 @@ $(document).ready(function(){
     var g = document.getElementById("graph")
     g.innerHTML = "Hi Maggie, glad to see you. This is your current progress:"
     var s = document.getElementById("last_smoke")
-    s.innerHTML = "You have not smoked for 24 days! :)"
-    var a = document.getElementById("age_baby")
-    a.innerHTML = "Therefore, you and your baby are healthy"
+    s.innerHTML = "You haven't touched a sigarette for 321 days"
+    // var a = document.getElementById("age_baby")
+    // a.innerHTML = "Therefore, you and your baby are healthy"
   }
 });
 
 // Set the language of a user based on which flag is picked
 function setLanguage(language) {
   localStorage.setItem("language", language)
-  document.getElementById("currentLanguage").innerHTML = "Current: " + language
 }
 
 // Set the fontsize of a user based on which fontsize is picked
@@ -234,7 +240,7 @@ function setFontFamily(family) {
 // Reset all the settings (language, fontFamily and fontsize) to the settings of the first load.
 function resetSettings() {
   localStorage.setItem("language",'english')
-  localStorage.setItem("fontfamily",null)
-  localStorage.setItem("fontsize",null)
+  localStorage.setItem("fontfamily", 'Helvetica')
+  localStorage.setItem("fontsize", 'inital')
   location.reload()
 }

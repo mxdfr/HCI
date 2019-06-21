@@ -183,6 +183,8 @@ body {
 	border:3px solid #f1f1f1;
     z-index: 999999;
 	opacity: 1;
+	overflow-y: scroll;
+    background-color: #fff;
 }
 
 /* Add styles to the form container */
@@ -495,15 +497,21 @@ h1 {
 	position: relative;
 	border-radius: 0px 0px 10px 10px;
 }
-
+.langCaption {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
 .countryList {
-    margin-top: 50px;
-	padding-top: 20px;
+    margin-top: 10px;
+	padding-top: 10px;
 	border: none;
 	background-color: #ececec;
-    display: inline-block;
+	display: inline-block;
+	padding-bottom: 4px;
     width: 100%;
-    border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
 }
 .flagcontainer {
 	float: left;
@@ -512,12 +520,18 @@ h1 {
 	vertical-align:center;
 	text-align:center;
 }
-
 .flag {
 	width: 65%;
     max-width: 100px;
     border: 10px solid #e0dfdf;
-    border-radius: 20px;
+	border-radius: 20px;
+	opacity: 0.6;
+}
+.flagcontainer.active {
+	.flag {
+		opacity: 1;
+		border: 10px solid darken(#e0dfdf, 10%);
+	}
 }
 
 .fontPick {

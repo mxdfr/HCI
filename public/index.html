@@ -46,9 +46,9 @@
               </div>
             </div>
         </div>
+        <div class="langCaption">Language</div>
         <div id="countrySelect" class="countryList">
-            <div class="fontCaption">Font size</div>
-            <div class="flagcontainer">
+            <div class="flagcontainer active">
                 <img src="img/engflag.png" class="flag" onclick="setLanguage('english')"/>
             </div>
             <div class="flagcontainer">
@@ -57,7 +57,6 @@
             <div class="flagcontainer">
                 <img src="img/freflag.png" class="flag" onclick="setLanguage('french')"/>
             </div>
-            <div id="currentLanguage"></div>
         </div>
         <button class="btn" id="reset" onclick="resetSettings()">Reset to default settings</button>
         <button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
@@ -104,13 +103,12 @@
     <div class="white-block">
       <p id="graph"></p>
       <p id="last_smoke">
+          You haven't touched a sigarette for <span class="daycount">213 days</span><br><br>
+      </p> 
       <p id="age_baby"></p>
       <div id="page-wrap">
-        <p class="motivation">
-          You haven't touched a sigarette for <span class="daycount">213 days</span><br><br>
-          <span class="accentcolortext">Great Job!</span> </br>
-          Just 12 more days and your chance of Lung Cancer decreases with 30%.
-        </p>
+        <span class="accentcolortext">Great Job!</span> </br>
+        Just 12 more days and your chance of Lung Cancer decreases with 30%.
         <div class="progressbar">
           <span style="width: 97.3%"></span>
         </div>
