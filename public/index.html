@@ -4,6 +4,8 @@
   <!-- linking scripts -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -15,7 +17,6 @@
   <!-- The settings page -->
 <div class="form-popup fontpopup" id="settingsForm">
     <div class="form-container">
-        <button id="hond" onclick="resetSettings()"></button>
         <div class="fontPick">
             <div class="fontCaption">Choose your desired font:</div>
             <div class="fontButtonWrapper">
@@ -57,6 +58,7 @@
             </div>
             <div id="currentLanguage"></div>
         </div>
+        <button class="btn" id="reset" onclick="resetSettings()">Reset to default settings</button>
         <button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
     </div>
 </div>
@@ -89,7 +91,8 @@
     <div class="grid"> 
         <div class="shadow-block">
           <p>Welcome to PAR, your personal coach to prevent a smoking relapse after giving birth.
-            create an account to track your progress and get personal updates.
+            This application will provide you with the information you need. 
+            You could also create an account to track your progress and get personal updates.
             <div class="registerbutton" onclick="openForm()"> login / create an account </div>
           </p>
         </div>
