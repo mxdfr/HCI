@@ -105,9 +105,10 @@ function closeSettings() {
 }
 // Read out the text
 function speechMe(text) {
-  var msg = new SpeechSynthesisUtterance(document.getElementById(text).innerHTML);
+  var msg = new SpeechSynthesisUtterance(text);
   window.speechSynthesis.speak(msg);
 }
+
 // When "I dont have an account yet" is checked show more than just the username and password so that a user is able to create an account
 function changeLogin() {
   var checkBox = document.getElementById("checkBox");

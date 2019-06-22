@@ -257,7 +257,7 @@ body {
 
 /* line 267, /Users/maxdefroe/HCI/public/scss/style.scss */
 h1 {
-  font-size: 38px;
+  font-size: 20px;
   padding: 15px 0px 0px 0px;
 }
 
@@ -779,6 +779,12 @@ ul li {
 /* line 710, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton:focus {
   outline: none;
+}
+
+/* line 715, /Users/maxdefroe/HCI/public/scss/style.scss */
+.speech {
+  width: 10%;
+  background-color: white;
 }
 
 /*# sourceMappingURL=../css/style.map */
