@@ -257,7 +257,7 @@ body {
 }
 
 h1 {
-	font-size: 38px;
+	font-size: 20px;
 	padding: 15px 0px 0px 0px;
 }
 
@@ -673,4 +673,9 @@ h1 {
 	&:focus {
 		outline: none;
 	}
+}
+
+.speech {
+	width:10%;
+	background-color: white;
 }
