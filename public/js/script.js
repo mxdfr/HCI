@@ -14,6 +14,22 @@ $( document ).ready(function() {
     });
   }
 });
+
+$ (document ).ready(function() {
+  document.onkeyup = function(e) {
+      if (e.which == 83 && e.altKey) {
+        showSettings();}
+      else if (e.which == 80 && e.altKey) {
+        openForm();
+      }
+      else if (e.which == 67 && e.altKey) {
+        void(Tawk_API.toggle());
+      }
+    
+    }
+      
+      
+});
 // Progressbar
 $(function() {
   $(".progressbar > span").each(function() {
