@@ -169,9 +169,14 @@ $(document).ready(function(){
     $("#panel-2").html("<p>Quash your urge to smoke by looking through the consequences of smoking on you and you child.</p>\
     <div class=\"innerblock\"><img class=\"innerimg\" src=\"./img/baby.jpg\"/><p>Your child is currenltly less than 1 month old<br>Especially in this period, inhaling secondhand smoke can have severe consequences on your baby.</p></div>\
     <p>Exposure to siggarette smoke has severe implications on infants.<br><br>\
-    The most dangerous is the Sudden infant death syndrome (SIDS). Which will lead to a sudden death. Exposure to second hand smoke can increase this risk.\
-    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a><br><br>\
-    Children who breathe secondhand smoke can have more: Ear infections Coughs and colds Bronchitis or Pneumonia Tooth decay ")
+    The most dangerous is the Sudden infant death syndrome (SIDS). Which will lead to a sudden death. Exposure to secondhand smoke can increase this risk.</p>\
+    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a><br>\
+    <p>Children who breathe secondhand smoke can have more:</p>\
+    <ul><li>Ear infections</li><li>Coughs and colds</li><li> Bronchitis or Pneumonia</li><li>Tooth decay</li></ul><br>\
+    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a>\
+    <p>Secondhand smoke may cause problems for children later in life including:</p>\
+    <ul><li>Poor lung development (meaning that their lungs never grow to their full potential)</li><li>Heart disease</li><li>Cataracts (an eye disease)</li></ul>\
+    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a>");
     // var a = document.getElementById("age_baby")
     // a.innerHTML = "Therefore, you and your baby are healthy"
   }
