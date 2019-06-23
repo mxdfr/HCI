@@ -718,18 +718,25 @@ ul li {
   border-radius: 10px;
 }
 
-/* line 657, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 656, /Users/maxdefroe/HCI/public/scss/style.scss */
+audio.audio {
+  max-width: 260px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* line 662, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container {
   padding-top: 30px;
 }
 
-/* line 659, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 664, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-reset {
   background-color: #ececec;
   color: #252525;
 }
 
-/* line 662, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 667, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-reset .buttonicon {
   height: 40px;
   margin-bottom: -15px;
@@ -737,14 +744,14 @@ ul li {
   margin-right: 10px;
 }
 
-/* line 669, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 674, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-cancel {
   background-color: #73c074;
   color: black;
   border: 3px solid #73c074;
 }
 
-/* line 676, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 681, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption {
   margin: 5px;
   float: left;
@@ -756,44 +763,44 @@ ul li {
   text-align: center;
 }
 
-/* line 686, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 691, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption.active {
   -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
 }
 
-/* line 692, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 697, /Users/maxdefroe/HCI/public/scss/style.scss */
 .A {
   font-size: 15px;
 }
 
-/* line 696, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 701, /Users/maxdefroe/HCI/public/scss/style.scss */
 .B {
   font-size: 20px;
 }
 
-/* line 700, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 705, /Users/maxdefroe/HCI/public/scss/style.scss */
 .C {
   font-size: 25px;
 }
 
-/* line 704, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 709, /Users/maxdefroe/HCI/public/scss/style.scss */
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 708, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 713, /Users/maxdefroe/HCI/public/scss/style.scss */
 .E {
   font-family: Verdana,Geneva,sans-serif;
 }
 
-/* line 712, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 717, /Users/maxdefroe/HCI/public/scss/style.scss */
 .F {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 716, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 721, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton {
   background-color: transparent;
   border: none;
@@ -808,12 +815,12 @@ ul li {
   cursor: pointer;
 }
 
-/* line 728, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 733, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton:focus {
   outline: none;
 }
 
-/* line 733, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 738, /Users/maxdefroe/HCI/public/scss/style.scss */
 .speech {
   width: 10%;
   background-color: white;
