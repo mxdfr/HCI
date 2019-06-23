@@ -233,6 +233,18 @@ function setFontsize(size) {
   var element = elements[i];
   element.style.fontSize = size;}
 
+  try {
+    var element = document.getElementById('graph');
+    element.style.fontSize = size;
+
+    var element = document.getElementById('last_smoke');
+    element.style.fontSize = size;
+}
+catch {
+  console.log("not logged in yet")
+}
+
+
 }
 
 // Set the fontfamily of a user based on which family is picked
@@ -263,7 +275,23 @@ function setFontFamily(family) {
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   element.style.fontFamily = family;}
-}
+
+  var elements = document.getElementsByClassName('personal_information p');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = family;}
+
+  try {
+      var element = document.getElementById('graph');
+      element.style.fontFamily = family;
+
+      var element = document.getElementById('last_smoke');
+      element.style.fontFamily = family;
+  }
+  catch {
+    console.log("not logged in yet")
+  }
+  }
 }
 // Reset all the settings (language, fontFamily and fontsize) to the settings of the first load.
 function resetSettings() {
