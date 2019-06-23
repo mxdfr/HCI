@@ -189,7 +189,7 @@ $(document).ready(function(){
     g.innerHTML = "<p>Hi Maggie, glad to see you. This is your current progress:</p>"
     var s = document.getElementById("last_smoke")
     s.innerHTML = "<p>You haven't touched a sigarette for 291 days</p>"
-    $("#panel-2").html("<p>Quash your urge to smoke by looking through the consequences of smoking on you and you child.</p>\
+    $("#panel-2").html('<p>Quash your urge to smoke by looking through the consequences of smoking on you and you child.</p>\
     <div class=\"innerblock\"><img class=\"innerimg\" src=\"./img/baby.jpg\"/><p>Your child is currenltly less than 1 month old<br>Especially in this period, inhaling secondhand smoke can have severe consequences on your baby.</p></div>\
     <p>Exposure to siggarette smoke has severe implications on infants.<br><br>\
     The most dangerous is the Sudden infant death syndrome (SIDS). Which will lead to a sudden death. Exposure to secondhand smoke can increase this risk.</p>\
@@ -199,8 +199,8 @@ $(document).ready(function(){
     <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a>\
     <p>Secondhand smoke may cause problems for children later in life including:</p>\
     <ul><li>Poor lung development (meaning that their lungs never grow to their full potential)</li><li>Heart disease</li><li>Cataracts (an eye disease)</li></ul>\
-    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a>");
-    $("#panel-3").html("<p><b>You saved 28.000 liter of water. That is a full year of taking showers</b></p><p>Secondhand smoke is the combination of smoke from the burning end of a cigarette and the smoke breathed out by smokers. Secondhand smoke contains more than 7000 chemicals. Hundreds are toxic and about 70 can cause cancer.<br>Secondhand smoke casues numerous health problems for infants and children, including more frequent and severe asthma attacks, respiratory infections, ear infections and sudden infant death syndrome.<br> Smoking during pregnancy results in more than 1000 deaths anually.<br> Some of the health conditions caused by secondhand smoke in adults include coronary heart disease, stroke and lung cancer.</p>")
+    <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a><audio controls class="audio"> <source src="audio/Health_consequences_Maggie.mp3" type="audio/mpeg"></audio>');
+    $("#panel-3").html('<p><b>You saved 28.000 liter of water. That is a full year of taking showers</b></p><p>Secondhand smoke is the combination of smoke from the burning end of a cigarette and the smoke breathed out by smokers. Secondhand smoke contains more than 7000 chemicals. Hundreds are toxic and about 70 can cause cancer.<br>Secondhand smoke casues numerous health problems for infants and children, including more frequent and severe asthma attacks, respiratory infections, ear infections and sudden infant death syndrome.<br> Smoking during pregnancy results in more than 1000 deaths anually.<br> Some of the health conditions caused by secondhand smoke in adults include coronary heart disease, stroke and lung cancer.</p><audio controls class="audio"><source src="audio/social_Maggie.mp3" type="audio/mpeg"></audio>')
   }
 });
 
