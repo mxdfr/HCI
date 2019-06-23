@@ -438,7 +438,12 @@ h1 {
     }
     @include bp(W768) {
         max-width: 90%;
+	}
+	@include bp(W550) {
+        max-width: 100%;
         .white-block {
+			margin: 0px;
+			width: 100%;
         }
     }
 }
@@ -452,7 +457,8 @@ h1 {
 	padding: 10px;
 	width: 90%;
     margin: auto;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 15px;
 	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
 	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
@@ -550,12 +556,22 @@ ul {
 			width: calc(20% - 20px);
 			float: left;
 			margin: 20px;
+			@include bp(W768) {
+				width: calc(40% - 20px);
+				float: initial;
+				margin: 20px;
+			}
 		}
 		p {
 		    width: calc(80% - 20px);
 			float: left;
 			padding-top: 40px;
 			color: #944f4c;
+			@include bp(W550) {
+				width: calc(100% - 40px);
+				margin-left: 20px;
+				margin-top: -30px;
+			}
 		}
 	}
 	@include bp(W550) {

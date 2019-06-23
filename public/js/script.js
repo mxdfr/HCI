@@ -136,6 +136,7 @@ function changeLogin() {
     document.getElementById("smoke").style.display = "block";
     document.getElementsByName("name")[0].placeholder = "Username (max 8 characters)"
   } else {
+    $('.form-container').animate({paddingTop: "100px"});
     document.getElementById("loginRegister").innerHTML = "Login"
     document.getElementById("age").style.display = "none";
     document.getElementById("born").style.display = "none";
