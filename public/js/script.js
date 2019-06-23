@@ -194,8 +194,7 @@ $(document).ready(function(){
     <p>Secondhand smoke may cause problems for children later in life including:</p>\
     <ul><li>Poor lung development (meaning that their lungs never grow to their full potential)</li><li>Heart disease</li><li>Cataracts (an eye disease)</li></ul>\
     <a class=\"sourcebutton\" href=\"https://www.healthychildren.org/English/health-issues/conditions/tobacco/Pages/Dangers-of-Secondhand-Smoke.aspx\">Source</a>");
-    // var a = document.getElementById("age_baby")
-    // a.innerHTML = "Therefore, you and your baby are healthy"
+    $("#panel-3").html("<p><b>You saved 28.000 liter of water. That is a full year of taking showers</b></p><p>Secondhand smoke is the combination of smoke from the burning end of a cigarette and the smoke breathed out by smokers. Secondhand smoke contains more than 7000 chemicals. Hundreds are toxic and about 70 can cause cancer.<br>Secondhand smoke casues numerous health problems for infants and children, including more frequent and severe asthma attacks, respiratory infections, ear infections and sudden infant death syndrome.<br> Smoking during pregnancy results in more than 1000 deaths anually.<br> Some of the health conditions caused by secondhand smoke in adults include coronary heart disease, stroke and lung cancer.</p>")
   }
 });
 
