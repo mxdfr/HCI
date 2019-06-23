@@ -25,6 +25,11 @@ $ (document ).ready(function() {
       else if (e.which == 67 && e.altKey) {
         void(Tawk_API.toggle());
       }
+      else if (e.which == 27) {
+        try {closeSettings()} catch {console.log("")}
+        try {closeForm()} catch {console.log("")}
+        try {void(Tawk_API.toggle());} catch {console.log("")}
+      }
     
     }
       
