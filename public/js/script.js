@@ -25,6 +25,11 @@ $ (document ).ready(function() {
       else if (e.which == 67 && e.altKey) {
         void(Tawk_API.toggle());
       }
+      else if (e.which == 27) {
+        try {closeSettings()} catch {console.log("")}
+        try {closeForm()} catch {console.log("")}
+        try {void(Tawk_API.toggle());} catch {console.log("")}
+      }
     
     }
       
@@ -181,9 +186,9 @@ function changeLogin() {
 $(document).ready(function(){
   if (localStorage.getItem("name") == "Maggie"){
     var g = document.getElementById("graph")
-    g.innerHTML = "Hi Maggie, glad to see you. This is your current progress:"
+    g.innerHTML = "<p>Hi Maggie, glad to see you. This is your current progress:</p>"
     var s = document.getElementById("last_smoke")
-    s.innerHTML = "You haven't touched a sigarette for 291 days"
+    s.innerHTML = "<p>You haven't touched a sigarette for 291 days</p>"
     $("#panel-2").html('<p>Quash your urge to smoke by looking through the consequences of smoking on you and you child.</p>\
     <div class=\"innerblock\"><img class=\"innerimg\" src=\"./img/baby.jpg\"/><p>Your child is currenltly less than 1 month old<br>Especially in this period, inhaling secondhand smoke can have severe consequences on your baby.</p></div>\
     <p>Exposure to siggarette smoke has severe implications on infants.<br><br>\
@@ -233,6 +238,18 @@ function setFontsize(size) {
   var element = elements[i];
   element.style.fontSize = size;}
 
+  try {
+    var element = document.getElementById('graph');
+    element.style.fontSize = size;
+
+    var element = document.getElementById('last_smoke');
+    element.style.fontSize = size;
+}
+catch {
+  console.log("not logged in yet")
+}
+
+
 }
 
 // Set the fontfamily of a user based on which family is picked
@@ -263,7 +280,23 @@ function setFontFamily(family) {
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
   element.style.fontFamily = family;}
-}
+
+  var elements = document.getElementsByClassName('personal_information p');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.style.fontFamily = family;}
+
+  try {
+      var element = document.getElementById('graph');
+      element.style.fontFamily = family;
+
+      var element = document.getElementById('last_smoke');
+      element.style.fontFamily = family;
+  }
+  catch {
+    console.log("not logged in yet")
+  }
+  }
 }
 // Reset all the settings (language, fontFamily and fontsize) to the settings of the first load.
 function resetSettings() {
