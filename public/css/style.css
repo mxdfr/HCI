@@ -17,11 +17,6 @@ body {
   background-color: #f8f9fb;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
-  -moz-filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  filter: gray;
-  /* IE6-9 */
-  filter: grayscale(100%);
 }
 
 /* line 84, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
