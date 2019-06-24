@@ -83,7 +83,7 @@ body {
 }
 
 .accentcolortext {
-	color: #e1787d;
+	color: black;
 }
 
 .recommend_register {
@@ -126,6 +126,7 @@ body {
 			-webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.19);
 			-moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.19);
 			box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.19);
+			margin-bottom: 20px;
 		}
 		@include bp(W550) {
 			width: 100%;
