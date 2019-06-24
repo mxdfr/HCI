@@ -12,14 +12,13 @@
   font-style: normal;
 }
 
-/* line 74, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
+/* line 74, /Users/maxdefroe/HCI/public/scss/style.scss */
 body {
   background-color: #f8f9fb;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
 }
 
-<<<<<<< HEAD
 /* line 80, /Users/maxdefroe/HCI/public/scss/style.scss */
 .greyscale {
   -moz-filter: grayscale(100%);
@@ -30,9 +29,6 @@ body {
 }
 
 /* line 88, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 84, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 * {
   box-sizing: border-box;
   -moz-transition: all "1s" ease;
@@ -41,50 +37,30 @@ body {
   transition: all "1s" ease;
 }
 
-<<<<<<< HEAD
 /* line 93, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 89, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .accentcolortext {
   color: black;
 }
 
-<<<<<<< HEAD
 /* line 98, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 94, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .recommend_register p {
   color: #000;
 }
 
-<<<<<<< HEAD
 /* line 102, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 98, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .page-spaceing {
   height: 100px;
   width: 100%;
   display: inline-block;
 }
 
-<<<<<<< HEAD
 /* line 107, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 103, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .grid {
   max-width: 700px;
   margin: auto;
 }
 
-<<<<<<< HEAD
 /* line 110, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 106, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .grid .shadow-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -102,21 +78,13 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* line 125, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 121, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .grid .shadow-block p {
   color: #000;
   font-weight: lighter;
 }
 
-<<<<<<< HEAD
 /* line 129, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 125, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .grid .shadow-block .registerbutton {
   background-color: #f78386;
   color: black;
@@ -129,11 +97,7 @@ body {
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 110, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 106, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .grid .shadow-block {
     width: 100%;
     margin: 0px;
@@ -141,33 +105,21 @@ body {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 107, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 103, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .grid {
     max-width: 90%;
   }
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 107, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 103, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .grid {
     max-width: 100%;
   }
 }
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-<<<<<<< HEAD
 /* line 152, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 148, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .setting, .chat {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -178,11 +130,7 @@ body {
   background-color: white;
 }
 
-<<<<<<< HEAD
 /* line 161, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 157, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .open-button {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -192,11 +140,7 @@ body {
   margin-left: auto;
 }
 
-<<<<<<< HEAD
 /* line 170, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 166, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .open-button-logged {
   position: absolute;
   margin-top: 10px;
@@ -205,11 +149,7 @@ body {
   display: none;
 }
 
-<<<<<<< HEAD
 /* line 178, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 174, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .open-button-logged-img {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -219,11 +159,7 @@ body {
   margin-left: auto;
 }
 
-<<<<<<< HEAD
 /* line 187, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 183, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .loginFooter {
   width: 100%;
   height: 100%;
@@ -231,11 +167,7 @@ body {
 }
 
 /* The popup form - hidden by default */
-<<<<<<< HEAD
 /* line 193, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 189, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-popup {
   height: 100%;
   width: 100%;
@@ -251,11 +183,7 @@ body {
 }
 
 /* Add styles to the form container */
-<<<<<<< HEAD
 /* line 208, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 204, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container {
   padding: 10px;
   padding-top: calc(50vh - 170px);
@@ -266,11 +194,7 @@ body {
 }
 
 /* Full-width input fields */
-<<<<<<< HEAD
 /* line 218, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 214, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -281,22 +205,14 @@ body {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 218, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 214, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .form-container input[type=text], .form-container input[type=password] {
     font-size: 17px !important;
   }
 }
 
 /* When the inputs get focus, do something */
-<<<<<<< HEAD
 /* line 231, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 227, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
@@ -304,11 +220,7 @@ body {
 }
 
 /* Set a style for the submit/login button*/
-<<<<<<< HEAD
 /* line 239, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 235, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container label {
   margin: auto;
   text-align: center;
@@ -318,11 +230,7 @@ body {
   margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
 /* line 247, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 243, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container .btn {
   background-color: #4CAF50;
   color: black;
@@ -336,32 +244,20 @@ body {
   opacity: 0.8;
 }
 
-<<<<<<< HEAD
 /* line 258, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 254, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container .btn:focus {
   outline: none;
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 247, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 243, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .form-container .btn {
     font-size: 17px !important;
   }
 }
 
 /* Add a grey boarder and transparent backgroundcolor to the cancel button */
-<<<<<<< HEAD
 /* line 268, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 264, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .grey-cancel {
   background-color: transparent !important;
   color: #3a3a3a !important;
@@ -370,30 +266,18 @@ body {
 }
 
 /* Add some hover effects to buttons */
-<<<<<<< HEAD
 /* line 276, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 272, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-<<<<<<< HEAD
 /* line 280, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 276, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 h1 {
   font-size: 20px;
   padding: 15px 0px 0px 0px;
 }
 
-<<<<<<< HEAD
 /* line 285, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 281, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .header-image {
   max-width: 700px;
   margin-top: 40px !important;
@@ -410,11 +294,7 @@ h1 {
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 285, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 281, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .header-image {
     margin-top: 10px !important;
     margin-bottom: 10px;
@@ -422,31 +302,19 @@ h1 {
   }
 }
 
-<<<<<<< HEAD
 /* line 304, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 300, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .title {
   text-align: center;
   color: white;
 }
 
-<<<<<<< HEAD
 /* line 309, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 305, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .white-block-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-<<<<<<< HEAD
 /* line 312, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 308, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .white-block-wrapper .white-block {
   max-width: 700px;
   margin: auto;
@@ -463,11 +331,7 @@ h1 {
   text-align: left;
 }
 
-<<<<<<< HEAD
 /* line 326, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 322, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .white-block-wrapper .white-block p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -475,21 +339,13 @@ h1 {
   font-weight: lighter;
 }
 
-<<<<<<< HEAD
 /* line 332, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 328, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .white-block-wrapper .white-block:focus {
   outline: none;
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 312, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 308, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .white-block-wrapper .white-block {
     margin: 10px 0;
     width: 100%;
@@ -497,61 +353,37 @@ h1 {
   }
 }
 
-<<<<<<< HEAD
 /* line 341, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 337, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .white-block-wrapper .white-block.active {
   border-radius: 10px 10px 0px 0px;
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 309, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
   }
   /* line 347, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 305, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-  .white-block-wrapper {
-    max-width: 90%;
-  }
-  /* line 343, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .white-block-wrapper .white-block p {
     font-size: 17px;
   }
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 309, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 305, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .white-block-wrapper {
     max-width: 100%;
   }
 }
 
-<<<<<<< HEAD
 /* line 364, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 360, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-<<<<<<< HEAD
 /* line 369, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 365, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .icon {
   max-width: 50px;
   margin: 20px;
@@ -559,40 +391,24 @@ h1 {
   float: left;
 }
 
-<<<<<<< HEAD
 /* line 377, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 373, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-<<<<<<< HEAD
 /* line 383, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 379, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .first_block {
   font-size: 16px;
   color: white;
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* line 390, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 386, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-<<<<<<< HEAD
 /* line 396, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 392, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 #footer-container {
   bottom: 0px;
   position: fixed;
@@ -606,11 +422,7 @@ h1 {
   border-radius: 7px 7px 0px 0px;
 }
 
-<<<<<<< HEAD
 /* line 407, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 403, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 #footer-container .footer {
   float: left;
   height: 90%;
@@ -618,21 +430,13 @@ h1 {
   position: initial;
 }
 
-<<<<<<< HEAD
 /* line 433, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 429, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .personal_information {
   max-width: 700px;
   margin: auto;
 }
 
-<<<<<<< HEAD
 /* line 436, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 432, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .personal_information .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -642,11 +446,7 @@ h1 {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* line 443, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 439, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .personal_information .white-block p {
   margin-top: 30px;
   font-size: 16px;
@@ -657,41 +457,25 @@ h1 {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 433, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 429, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .personal_information {
     max-width: 90%;
   }
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 433, /Users/maxdefroe/HCI/public/scss/style.scss */
   .personal_information {
     max-width: 100%;
   }
   /* line 457, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 429, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
-  .personal_information {
-    max-width: 100%;
-  }
-  /* line 453, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .personal_information .white-block {
     margin: 0px;
     width: 100%;
   }
 }
 
-<<<<<<< HEAD
 /* line 463, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 459, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .progressbar {
   height: 40px;
   position: relative;
@@ -709,11 +493,7 @@ h1 {
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
 /* line 479, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 475, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .progressbar > span {
   height: 40px !important;
   display: block;
@@ -742,11 +522,7 @@ h1 {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 /* line 506, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 502, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .progressbar > span:after {
   content: "";
   position: absolute;
@@ -775,21 +551,13 @@ h1 {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 /* line 531, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 527, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 ul {
   list-style-type: none !important;
   padding-left: 0px;
 }
 
-<<<<<<< HEAD
 /* line 534, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 530, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 ul li {
   background-image: url("../img/bullet.png");
   background-position: center left !important;
@@ -799,11 +567,7 @@ ul li {
   padding-left: 22px;
 }
 
-<<<<<<< HEAD
 /* line 544, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 540, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .panel {
   padding: 0 18px;
   display: none;
@@ -817,22 +581,14 @@ ul li {
   border-radius: 0px 0px 10px 10px;
 }
 
-<<<<<<< HEAD
 /* line 555, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 551, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .panel p {
   width: calc(100% - 40px);
   margin-left: auto;
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 /* line 560, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 556, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .panel .innerblock {
   background-color: #fff;
   width: calc(100% - 40px);
@@ -844,11 +600,7 @@ ul li {
   margin: 20px;
 }
 
-<<<<<<< HEAD
 /* line 569, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 565, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .panel .innerblock .innerimg {
   width: calc(20% - 20px);
   float: left;
@@ -856,11 +608,7 @@ ul li {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 569, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 565, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .panel .innerblock .innerimg {
     width: calc(40% - 20px);
     float: initial;
@@ -868,11 +616,7 @@ ul li {
   }
 }
 
-<<<<<<< HEAD
 /* line 579, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 575, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .panel .innerblock p {
   width: calc(80% - 20px);
   float: left;
@@ -881,11 +625,7 @@ ul li {
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 579, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 575, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .panel .innerblock p {
     width: calc(100% - 40px);
     margin-left: 20px;
@@ -894,21 +634,13 @@ ul li {
 }
 
 @media (max-width: 550px) {
-<<<<<<< HEAD
   /* line 544, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 540, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .panel {
     margin: 0px;
   }
 }
 
-<<<<<<< HEAD
 /* line 595, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 591, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .sourcebutton {
   float: right;
   background-color: #e0dcdc;
@@ -920,32 +652,20 @@ ul li {
   font-size: 12px;
 }
 
-<<<<<<< HEAD
 /* line 604, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 600, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .sourcebutton:hover {
   background-color: #c8c1c1;
   color: #fff;
 }
 
-<<<<<<< HEAD
 /* line 609, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 605, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .langCaption {
   text-align: center;
   margin-bottom: 0px;
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
 /* line 614, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 610, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .countryList {
   margin-top: 10px;
   padding-top: 10px;
@@ -958,11 +678,7 @@ ul li {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 /* line 625, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 621, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .flagcontainer {
   float: left;
   width: calc(100% / 3);
@@ -971,11 +687,7 @@ ul li {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* line 632, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 628, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .flag {
   width: 65%;
   max-width: 100px;
@@ -984,32 +696,20 @@ ul li {
   opacity: 0.6;
 }
 
-<<<<<<< HEAD
 /* line 640, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 636, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .flagcontainer.active .flag {
   opacity: 1;
   border: 10px solid #c7c5c5;
 }
 
-<<<<<<< HEAD
 /* line 646, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 642, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontPick {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-<<<<<<< HEAD
 /* line 651, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 647, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontCaption {
   height: 20%;
   text-align: center;
@@ -1017,11 +717,7 @@ ul li {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
 /* line 657, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 653, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontButtonWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -1029,11 +725,7 @@ ul li {
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
 /* line 663, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 659, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontSizeWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -1041,41 +733,25 @@ ul li {
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
 /* line 669, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 665, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 audio.audio {
   max-width: 260px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 /* line 675, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 671, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontpopup .form-container {
   padding-top: 30px;
 }
 
-<<<<<<< HEAD
 /* line 677, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 673, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontpopup .form-container .btn-reset {
   background-color: #ececec;
   color: #252525;
 }
 
-<<<<<<< HEAD
 /* line 680, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 676, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontpopup .form-container .btn-reset .buttonicon {
   height: 40px;
   margin-bottom: -15px;
@@ -1083,22 +759,14 @@ audio.audio {
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 /* line 687, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 683, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontpopup .form-container .btn-cancel {
   background-color: #73c074;
   color: black;
   border: 3px solid #73c074;
 }
 
-<<<<<<< HEAD
 /* line 694, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 690, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontsizeOption {
   margin: 5px;
   float: left;
@@ -1110,76 +778,44 @@ audio.audio {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* line 704, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 700, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontsizeOption.active {
   -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
 }
 
-<<<<<<< HEAD
 /* line 710, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 706, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .A {
   font-size: 15px;
 }
 
-<<<<<<< HEAD
 /* line 714, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 710, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .B {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 /* line 718, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 714, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .C {
   font-size: 25px;
 }
 
-<<<<<<< HEAD
 /* line 722, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 718, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .D {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
 /* line 726, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 722, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .E {
   font-family: Verdana,Geneva,sans-serif;
 }
 
-<<<<<<< HEAD
 /* line 730, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 726, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .F {
   font-family: Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
 /* line 734, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 730, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontButton {
   background-color: transparent;
   border: none;
@@ -1194,26 +830,17 @@ audio.audio {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* line 746, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 742, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .fontButton:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
 /* line 751, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 747, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .speech {
   width: 10%;
   background-color: white;
 }
 
-<<<<<<< HEAD
 /* line 756, /Users/maxdefroe/HCI/public/scss/style.scss */
 .greyscalebtn {
   font-size: 20px;
@@ -1230,9 +857,6 @@ audio.audio {
 }
 
 /* line 771, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 752, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .shortcuts {
   color: #252525;
   font-size: 20px;
@@ -1247,16 +871,12 @@ audio.audio {
   margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
 /* line 783, /Users/maxdefroe/HCI/public/scss/style.scss */
 .shortcuts ul {
   display: none;
 }
 
 /* line 786, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-/* line 755, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
 .shortcuts li {
   font-weight: lighter;
   font-size: 15px;
@@ -1264,11 +884,7 @@ audio.audio {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
   /* line 771, /Users/maxdefroe/HCI/public/scss/style.scss */
-=======
-  /* line 752, C:/Users/ramon/OneDrive/Documenten/Vu jaar 2/P6 - Human Computer Interaction/HCI/public/scss/style.scss */
->>>>>>> dcb8956de8ecda0724571a3724e67969506cc653
   .shortcuts {
     display: none;
   }
