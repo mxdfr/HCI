@@ -75,10 +75,14 @@ body {
 	background-color: #f8f9fb;
 	font-family: Helvetica, sans-serif;
 	font-size: 22px;
-	// -moz-filter: grayscale(100%);
-    // -webkit-filter: grayscale(100%);
-    // filter: gray; /* IE6-9 */
-    // filter: grayscale(100%);
+}
+
+.greyscale {
+	-moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+	filter: grayscale(100%);
+	margin: -40px -5px;
 }
 
 * {
@@ -616,7 +620,7 @@ ul {
 	padding-bottom: 4px;
     width: 100%;
 	border-radius: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .flagcontainer {
 	float: left;
@@ -749,10 +753,38 @@ audio.audio {
 	background-color: white;
 }
 
-.shortcuts {
+.greyscalebtn {
 	font-size: 20px;
 	text-align: center;
+	background-color: #ececec;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #252525;
+}
+	
+
+.shortcuts {
+	color: #252525;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ececec;
+	padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	ul {
+		display: none;
+	}
 	li {
+		font-weight: lighter;
 		font-size: 15px;
 		text-align: center;
 	}

@@ -71,6 +71,33 @@ $(function() {
     $(this).addClass("active");   
   });
 });
+
+var greyscale = true;
+
+//Toggle grayscale colors
+$(function() {                     
+  $(".greyscalebtn").click(function() { 
+    if (greyscale) {
+      $('body').removeClass("greyscale");
+      greyscale = false;
+      $('.greyscalebtn').html("Set colors to Greyscale");
+    }
+    else {
+      $('body').addClass("greyscale");
+      greyscale = true;
+      $('.greyscalebtn').html("Return to coloured mode");
+    }
+  });
+});
+
+
+// Toggle the shortcut explanation
+$(function() {                     
+  $(".shortcuts").click(function() { 
+    $(".shortcuts ul").toggle();  
+  });
+});
+
 // Store the name of the user in localStorage so that he remains logged in after closing the browser
 function login() {
    var name = document.getElementById("name").value
