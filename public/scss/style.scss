@@ -75,6 +75,10 @@ body {
 	background-color: #f8f9fb;
 	font-family: Helvetica, sans-serif;
 	font-size: 22px;
+	-moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(100%);
 }
 
 * {
@@ -751,5 +755,8 @@ audio.audio {
 	li {
 		font-size: 15px;
 		text-align: center;
+	}
+	@include bp(W768) {
+		display: none;
 	}
 }
