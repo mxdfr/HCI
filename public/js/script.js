@@ -20,7 +20,11 @@ $ (document ).ready(function() {
       if (e.which == 83 && e.altKey) {
         showSettings();}
       else if (e.which == 80 && e.altKey) {
-        openForm();
+        if (localStorage.getItem("name") != "null" && localStorage.getItem("name") != null) {
+          openLogout();}
+        else {
+          openForm();
+        }
       }
       else if (e.which == 67 && e.altKey) {
         void(Tawk_API.toggle());
@@ -28,7 +32,7 @@ $ (document ).ready(function() {
       else if (e.which == 27) {
         try {closeSettings()} catch {console.log("")}
         try {closeForm()} catch {console.log("")}
-        try {void(Tawk_API.toggle());} catch {console.log("")}
+        try {closeLogout()} catch {console.log("")}
       }
     
     }
