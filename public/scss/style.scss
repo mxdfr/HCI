@@ -323,10 +323,11 @@ h1 {
 		border: none;
 		margin-bottom: 0px;
 		text-align: left;
-		p {
+		span {
+			display:inline-block;
 			margin-top: 30px;
 			margin-bottom: 30px;
-			margin-left: 90px;
+			margin-left: 10px;
 			font-weight: lighter;
 		} 
 		&:focus {
@@ -344,7 +345,7 @@ h1 {
 	@include bp(W768) {
 		max-width: 90%;
 		.white-block {
-			p {
+			span {
 				font-size: 17px;
 			}
 		}
@@ -411,24 +412,6 @@ h1 {
 			position: initial;
         }
 	}
-// .personal_information{
-//     font-size: 20px;
-//     text-align: center;
-//     color: black;
-//     background-color: #fff;
-//     width: calc(100% - 20px);
-//     border-radius: 10px;
-//     float: left;
-//     margin: 10px;
-//     max-width: 700px;
-//     #last_smoke{
-//         font-size: 15px;
-//     }  
-
-//     #age_baby{
-//         font-size: 15px;
-//     }
-// }
 
 .personal_information {
     max-width: 700px;

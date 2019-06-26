@@ -1,3 +1,6 @@
+//Javascript functions
+
+//Accordion for BCT's
 $( document ).ready(function() {
   var acc = document.getElementsByClassName("white-block");
   var i;
@@ -15,6 +18,7 @@ $( document ).ready(function() {
   }
 });
 
+//Shortcuts
 $ (document ).ready(function() {
   document.onkeyup = function(e) {
       if (e.which == 83 && e.altKey) {
@@ -181,37 +185,6 @@ function changeLogin() {
 
   }
 }
-// function chat_bot(){
-//   var x = document.getElementById("six_blocks");
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-
-//   var y = document.getElementById("title");
-//   if (y.innerHTML === "Chat bot") {
-//     y.innerHTML = "Prevent A Relapse";
-//   } else {
-//     y.innerHTML = "Chat bot";
-//   }
-
-//   var z = document.getElementById("button");
-//   if (z.innerHTML === "Click here to go back to the information screen") {
-//     z.innerHTML = "Wanting a cigarette too bad? Click here to live chat";
-//   } else {
-//     z.innerHTML = "Click here to go back to the information screen";
-//   }
-
-//   var c = document.getElementById("chat_bot");
-//   if (c.style.display === "block") {
-//     c.style.display = "none";
-//   } else {
-//     c.style.display = "block";
-//   }
-
-// }
-
 
 // Hardcoded one user that is called Maggie, if the username is maggie show some personal information for demonstation purposes
 $(document).ready(function(){
