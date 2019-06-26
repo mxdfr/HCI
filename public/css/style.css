@@ -224,13 +224,12 @@ body {
 .form-container label {
   margin: auto;
   text-align: center;
-  display: inherit;
   color: #505050;
   font-size: 14px;
   margin-bottom: 15px;
 }
 
-/* line 246, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 245, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .form-container .btn {
   background-color: #4CAF50;
   color: black;
@@ -244,20 +243,20 @@ body {
   opacity: 0.8;
 }
 
-/* line 257, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 256, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .form-container .btn:focus {
   outline: none;
 }
 
 @media (max-width: 768px) {
-  /* line 246, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+  /* line 245, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
   .form-container .btn {
     font-size: 17px !important;
   }
 }
 
 /* Add a grey boarder and transparent backgroundcolor to the cancel button */
-/* line 267, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 266, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .grey-cancel {
   background-color: transparent !important;
   color: #3a3a3a !important;
@@ -266,18 +265,18 @@ body {
 }
 
 /* Add some hover effects to buttons */
-/* line 275, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 274, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-/* line 279, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 278, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 h1 {
   font-size: 20px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 285, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 284, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .header-image {
   max-width: 700px;
   margin-top: 40px !important;
@@ -294,7 +293,7 @@ h1 {
 }
 
 @media (max-width: 550px) {
-  /* line 285, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+  /* line 284, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
   .header-image {
     margin-top: 10px !important;
     margin-bottom: 10px;
@@ -302,19 +301,19 @@ h1 {
   }
 }
 
-/* line 304, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 303, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 309, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 308, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .white-block-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 312, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 311, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block {
   max-width: 700px;
   margin: auto;
@@ -331,8 +330,9 @@ h1 {
   text-align: left;
 }
 
-/* line 326, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+/* line 325, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block span {
+  max-width: 60%;
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -346,7 +346,7 @@ h1 {
 }
 
 @media (max-width: 550px) {
-  /* line 312, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+  /* line 311, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
   .white-block-wrapper .white-block {
     margin: 10px 0;
     width: 100%;
@@ -360,7 +360,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* line 309, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+  /* line 308, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
   }
@@ -371,7 +371,7 @@ h1 {
 }
 
 @media (max-width: 550px) {
-  /* line 309, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
+  /* line 308, C:/Users/lucas/Desktop/Nieuwemap/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 100%;
   }
