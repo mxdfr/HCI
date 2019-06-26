@@ -219,44 +219,44 @@ function setFontsize(size) {
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   var elements = document.getElementsByClassName('spanner');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   var elements = document.getElementsByClassName('btn');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   var elements = document.getElementsByClassName('countryList');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important');}
 
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important; display:none') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   var elements = document.getElementsByClassName('registerInputMain');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.style.setProperty('font-size', size, 'important'); }
 
   try {
     var element = document.getElementById('graph');
-    element.setAttribute('style', 'font-size: ' + size + ' !important');
+    element.style.setProperty('font-size', size, 'important');
 
     var element = document.getElementById('last_smoke');
-    element.setAttribute('style', 'font-size: ' + size + ' !important');
+    element.style.setProperty('font-size', size, 'important');
 }
 catch {
   console.log("not logged in yet")
@@ -272,49 +272,49 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important') }
 
   var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important')}
 
   var elements = document.getElementsByClassName('btn');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important')}
 
   var elements = document.getElementsByClassName('countryList');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important') }
 
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important; display:none') }
+  element.style.setProperty('font-family', family, 'important')}
 
   var elements = document.getElementsByClassName('registerInputMain');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important') }
 
   var elements = document.getElementsByClassName('personal_information p');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important')}
 
   var elements = document.getElementsByClassName('spanner');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.style.setProperty('font-family', family, 'important') }
 
   try {
       var element = document.getElementById('graph');
-      element.setAttribute('style', 'font-family: ' + family + ' !important') ;
+      element.style.setProperty('font-family', family, 'important') ;
 
       var element = document.getElementById('last_smoke');
-      element.setAttribute('style', 'font-family: ' + family + ' !important') ;
+      element.style.setProperty('font-family', family, 'important') ;
   }
   catch {
     console.log("not logged in yet")
