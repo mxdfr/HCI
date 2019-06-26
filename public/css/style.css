@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'Arial';
+  src: url("../fonts/ArialMT.woff2") format("woff2"), url("../fonts/ArialMT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: OpenDyslexic3;
   src: url("../fonts/OpenDyslexicThree-Regular.woff2") format("woff2"), url("../fonts/OpenDyslexicThree-Regular.woff") format("woff");
   font-weight: normal;
@@ -12,14 +19,14 @@
   font-style: normal;
 }
 
-/* line 73, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 81, /Users/maxdefroe/HCI/public/scss/style.scss */
 body {
   background-color: #f8f9fb;
   font-family: helvetica, sans-serif;
   font-size: 22px;
 }
 
-/* line 79, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 87, /Users/maxdefroe/HCI/public/scss/style.scss */
 .greyscale {
   -moz-filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -28,7 +35,7 @@ body {
   margin: -40px -5px;
 }
 
-/* line 87, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 95, /Users/maxdefroe/HCI/public/scss/style.scss */
 * {
   box-sizing: border-box;
   -moz-transition: all "1s" ease;
@@ -37,30 +44,30 @@ body {
   transition: all "1s" ease;
 }
 
-/* line 92, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 100, /Users/maxdefroe/HCI/public/scss/style.scss */
 .accentcolortext {
   color: black;
 }
 
-/* line 97, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 105, /Users/maxdefroe/HCI/public/scss/style.scss */
 .recommend_register p {
   color: #000;
 }
 
-/* line 101, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 109, /Users/maxdefroe/HCI/public/scss/style.scss */
 .page-spaceing {
   height: 100px;
   width: 100%;
   display: inline-block;
 }
 
-/* line 106, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 114, /Users/maxdefroe/HCI/public/scss/style.scss */
 .grid {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 109, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 117, /Users/maxdefroe/HCI/public/scss/style.scss */
 .grid .shadow-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -78,13 +85,13 @@ body {
   text-align: center;
 }
 
-/* line 124, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 132, /Users/maxdefroe/HCI/public/scss/style.scss */
 .grid .shadow-block p {
   color: #000;
   font-weight: lighter;
 }
 
-/* line 128, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 136, /Users/maxdefroe/HCI/public/scss/style.scss */
 .grid .shadow-block .registerbutton {
   background-color: #f78386;
   color: black;
@@ -97,7 +104,7 @@ body {
 }
 
 @media (max-width: 550px) {
-  /* line 109, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 117, /Users/maxdefroe/HCI/public/scss/style.scss */
   .grid .shadow-block {
     width: 100%;
     margin: 0px;
@@ -105,21 +112,21 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 106, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 114, /Users/maxdefroe/HCI/public/scss/style.scss */
   .grid {
     max-width: 90%;
   }
 }
 
 @media (max-width: 550px) {
-  /* line 106, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 114, /Users/maxdefroe/HCI/public/scss/style.scss */
   .grid {
     max-width: 100%;
   }
 }
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-/* line 151, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 159, /Users/maxdefroe/HCI/public/scss/style.scss */
 .setting, .chat {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -130,7 +137,7 @@ body {
   background-color: white;
 }
 
-/* line 160, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 168, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -140,7 +147,7 @@ body {
   margin-left: auto;
 }
 
-/* line 169, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 177, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button-logged {
   position: absolute;
   margin-top: 10px;
@@ -149,7 +156,7 @@ body {
   display: none;
 }
 
-/* line 177, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 185, /Users/maxdefroe/HCI/public/scss/style.scss */
 .open-button-logged-img {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -159,7 +166,7 @@ body {
   margin-left: auto;
 }
 
-/* line 186, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 194, /Users/maxdefroe/HCI/public/scss/style.scss */
 .loginFooter {
   width: 100%;
   height: 100%;
@@ -167,7 +174,7 @@ body {
 }
 
 /* The popup form - hidden by default */
-/* line 192, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 200, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-popup {
   height: 100%;
   width: 100%;
@@ -183,7 +190,7 @@ body {
 }
 
 /* Add styles to the form container */
-/* line 207, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 215, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container {
   padding: 10px;
   padding-top: calc(50vh - 170px);
@@ -194,7 +201,7 @@ body {
 }
 
 /* Full-width input fields */
-/* line 217, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 225, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -205,14 +212,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 217, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 225, /Users/maxdefroe/HCI/public/scss/style.scss */
   .form-container input[type=text], .form-container input[type=password] {
     font-size: 17px !important;
   }
 }
 
 /* When the inputs get focus, do something */
-/* line 230, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 238, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
@@ -220,7 +227,7 @@ body {
 }
 
 /* Set a style for the submit/login button*/
-/* line 238, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 246, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container label {
   margin: auto;
   text-align: center;
@@ -229,7 +236,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 245, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 253, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn {
   background-color: #4CAF50;
   color: black;
@@ -243,20 +250,20 @@ body {
   opacity: 0.8;
 }
 
-/* line 256, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 264, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn:focus {
   outline: none;
 }
 
 @media (max-width: 768px) {
-  /* line 245, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 253, /Users/maxdefroe/HCI/public/scss/style.scss */
   .form-container .btn {
     font-size: 17px !important;
   }
 }
 
 /* Add a grey boarder and transparent backgroundcolor to the cancel button */
-/* line 266, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 274, /Users/maxdefroe/HCI/public/scss/style.scss */
 .grey-cancel {
   background-color: transparent !important;
   color: #3a3a3a !important;
@@ -265,18 +272,18 @@ body {
 }
 
 /* Add some hover effects to buttons */
-/* line 274, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 282, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
-/* line 278, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 286, /Users/maxdefroe/HCI/public/scss/style.scss */
 h1 {
   font-size: 20px;
   padding: 15px 0px 0px 0px;
 }
 
-/* line 284, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 292, /Users/maxdefroe/HCI/public/scss/style.scss */
 .header-image {
   max-width: 700px;
   margin-top: 40px !important;
@@ -293,7 +300,7 @@ h1 {
 }
 
 @media (max-width: 550px) {
-  /* line 284, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 292, /Users/maxdefroe/HCI/public/scss/style.scss */
   .header-image {
     margin-top: 10px !important;
     margin-bottom: 10px;
@@ -301,19 +308,19 @@ h1 {
   }
 }
 
-/* line 303, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 311, /Users/maxdefroe/HCI/public/scss/style.scss */
 .title {
   text-align: center;
   color: white;
 }
 
-/* line 308, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 316, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 311, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 319, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block {
   max-width: 700px;
   margin: auto;
@@ -330,7 +337,7 @@ h1 {
   text-align: left;
 }
 
-/* line 325, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 333, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block span {
   max-width: 60%;
   display: inline-block;
@@ -340,13 +347,13 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 333, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 341, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block:focus {
   outline: none;
 }
 
 @media (max-width: 550px) {
-  /* line 311, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 319, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper .white-block {
     margin: 10px 0;
     width: 100%;
@@ -354,62 +361,58 @@ h1 {
   }
 }
 
-/* line 342, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 350, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block.active {
   border-radius: 10px 10px 0px 0px;
 }
 
 @media (max-width: 768px) {
-  /* line 308, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 316, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
-  }
-  /* line 348, /Users/maxdefroe/HCI/public/scss/style.scss */
-  .white-block-wrapper .white-block span {
-    font-size: 17px;
   }
 }
 
 @media (max-width: 550px) {
-  /* line 308, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 316, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 100%;
   }
 }
 
-/* line 365, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 373, /Users/maxdefroe/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 370, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 378, /Users/maxdefroe/HCI/public/scss/style.scss */
 .icon {
-  max-width: 50px;
+  max-width: 40px;
   margin: 20px;
   max-height: 50px;
   float: left;
 }
 
-/* line 378, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 386, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 384, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 392, /Users/maxdefroe/HCI/public/scss/style.scss */
 .first_block {
   font-size: 16px;
   color: white;
   text-align: center;
 }
 
-/* line 391, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 399, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 397, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 405, /Users/maxdefroe/HCI/public/scss/style.scss */
 #footer-container {
   bottom: 0px;
   position: fixed;
@@ -423,7 +426,7 @@ h1 {
   border-radius: 7px 7px 0px 0px;
 }
 
-/* line 408, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 416, /Users/maxdefroe/HCI/public/scss/style.scss */
 #footer-container .footer {
   float: left;
   height: 90%;
@@ -431,13 +434,13 @@ h1 {
   position: initial;
 }
 
-/* line 416, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 424, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 419, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 427, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information .white-block {
   background-color: #fff;
   width: calc(100% - 20px);
@@ -447,7 +450,7 @@ h1 {
   text-align: center;
 }
 
-/* line 426, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 434, /Users/maxdefroe/HCI/public/scss/style.scss */
 .personal_information .white-block p {
   margin-top: 30px;
   font-size: 16px;
@@ -458,25 +461,25 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* line 416, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 424, /Users/maxdefroe/HCI/public/scss/style.scss */
   .personal_information {
     max-width: 90%;
   }
 }
 
 @media (max-width: 550px) {
-  /* line 416, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 424, /Users/maxdefroe/HCI/public/scss/style.scss */
   .personal_information {
     max-width: 100%;
   }
-  /* line 440, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 448, /Users/maxdefroe/HCI/public/scss/style.scss */
   .personal_information .white-block {
     margin: 0px;
     width: 100%;
   }
 }
 
-/* line 446, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 454, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar {
   height: 40px;
   position: relative;
@@ -494,7 +497,7 @@ h1 {
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 
-/* line 462, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 470, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar > span {
   height: 40px !important;
   display: block;
@@ -523,7 +526,7 @@ h1 {
   overflow: hidden;
 }
 
-/* line 489, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 497, /Users/maxdefroe/HCI/public/scss/style.scss */
 .progressbar > span:after {
   content: "";
   position: absolute;
@@ -552,13 +555,13 @@ h1 {
   overflow: hidden;
 }
 
-/* line 514, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 522, /Users/maxdefroe/HCI/public/scss/style.scss */
 ul {
   list-style-type: none !important;
   padding-left: 0px;
 }
 
-/* line 517, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 525, /Users/maxdefroe/HCI/public/scss/style.scss */
 ul li {
   background-image: url("../img/bullet.png");
   background-position: center left !important;
@@ -568,7 +571,7 @@ ul li {
   padding-left: 22px;
 }
 
-/* line 527, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 535, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel {
   padding: 0 18px;
   display: none;
@@ -582,14 +585,14 @@ ul li {
   border-radius: 0px 0px 10px 10px;
 }
 
-/* line 538, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 546, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel p {
   width: calc(100% - 40px);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 543, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 551, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel .innerblock {
   background-color: #fff;
   width: calc(100% - 40px);
@@ -601,7 +604,7 @@ ul li {
   margin: 20px;
 }
 
-/* line 552, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 560, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel .innerblock .innerimg {
   width: calc(20% - 20px);
   float: left;
@@ -609,7 +612,7 @@ ul li {
 }
 
 @media (max-width: 768px) {
-  /* line 552, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 560, /Users/maxdefroe/HCI/public/scss/style.scss */
   .panel .innerblock .innerimg {
     width: calc(40% - 20px);
     float: initial;
@@ -617,7 +620,7 @@ ul li {
   }
 }
 
-/* line 562, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 570, /Users/maxdefroe/HCI/public/scss/style.scss */
 .panel .innerblock p {
   width: calc(80% - 20px);
   float: left;
@@ -626,7 +629,7 @@ ul li {
 }
 
 @media (max-width: 550px) {
-  /* line 562, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 570, /Users/maxdefroe/HCI/public/scss/style.scss */
   .panel .innerblock p {
     width: calc(100% - 40px);
     margin-left: 20px;
@@ -635,13 +638,13 @@ ul li {
 }
 
 @media (max-width: 550px) {
-  /* line 527, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 535, /Users/maxdefroe/HCI/public/scss/style.scss */
   .panel {
     margin: 0px;
   }
 }
 
-/* line 578, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 586, /Users/maxdefroe/HCI/public/scss/style.scss */
 .sourcebutton {
   float: right;
   background-color: #e0dcdc;
@@ -653,20 +656,20 @@ ul li {
   font-size: 12px;
 }
 
-/* line 587, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 595, /Users/maxdefroe/HCI/public/scss/style.scss */
 .sourcebutton:hover {
   background-color: #c8c1c1;
   color: #fff;
 }
 
-/* line 592, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 600, /Users/maxdefroe/HCI/public/scss/style.scss */
 .langCaption {
   text-align: center;
   margin-bottom: 0px;
   margin-top: 10px;
 }
 
-/* line 597, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 605, /Users/maxdefroe/HCI/public/scss/style.scss */
 .countryList {
   margin-top: 10px;
   padding-top: 10px;
@@ -679,7 +682,7 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* line 608, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 616, /Users/maxdefroe/HCI/public/scss/style.scss */
 .flagcontainer {
   float: left;
   width: calc(100% / 3);
@@ -688,7 +691,7 @@ ul li {
   text-align: center;
 }
 
-/* line 615, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 623, /Users/maxdefroe/HCI/public/scss/style.scss */
 .flag {
   width: 65%;
   max-width: 100px;
@@ -697,20 +700,20 @@ ul li {
   opacity: 0.6;
 }
 
-/* line 623, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 631, /Users/maxdefroe/HCI/public/scss/style.scss */
 .flagcontainer.active .flag {
   opacity: 1;
   border: 10px solid #c7c5c5;
 }
 
-/* line 629, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 637, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontPick {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-/* line 634, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 642, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontCaption {
   height: 20%;
   text-align: center;
@@ -718,7 +721,7 @@ ul li {
   margin-top: 10px;
 }
 
-/* line 640, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 648, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButtonWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -726,7 +729,7 @@ ul li {
   border-radius: 10px;
 }
 
-/* line 646, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 654, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontSizeWrapper {
   background-color: #ececec;
   display: inline-block;
@@ -734,30 +737,30 @@ ul li {
   border-radius: 10px;
 }
 
-/* line 652, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 660, /Users/maxdefroe/HCI/public/scss/style.scss */
 audio.audio {
   max-width: 260px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-/* line 659, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 667, /Users/maxdefroe/HCI/public/scss/style.scss */
 .form-container .hideme {
   display: none;
 }
 
-/* line 664, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 672, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container {
   padding-top: 30px;
 }
 
-/* line 666, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 674, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-reset {
   background-color: #ececec;
   color: #252525;
 }
 
-/* line 669, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 677, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-reset .buttonicon {
   height: 40px;
   margin-bottom: -15px;
@@ -765,14 +768,14 @@ audio.audio {
   margin-right: 10px;
 }
 
-/* line 676, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 684, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontpopup .form-container .btn-cancel {
   background-color: #73c074;
   color: black;
   border: 3px solid #73c074;
 }
 
-/* line 683, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 691, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption {
   margin: 5px;
   float: left;
@@ -784,44 +787,44 @@ audio.audio {
   text-align: center;
 }
 
-/* line 693, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 701, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontsizeOption.active {
   -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
   box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.19);
 }
 
-/* line 699, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 707, /Users/maxdefroe/HCI/public/scss/style.scss */
 .A {
   font-size: 15px;
 }
 
-/* line 703, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 711, /Users/maxdefroe/HCI/public/scss/style.scss */
 .B {
   font-size: 20px;
 }
 
-/* line 707, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 715, /Users/maxdefroe/HCI/public/scss/style.scss */
 .C {
   font-size: 25px;
 }
 
-/* line 711, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 719, /Users/maxdefroe/HCI/public/scss/style.scss */
 .D {
-  font-family: arial, sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
-/* line 715, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 723, /Users/maxdefroe/HCI/public/scss/style.scss */
 .E {
   font-family: Verdana, sans-serif;
 }
 
-/* line 719, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 727, /Users/maxdefroe/HCI/public/scss/style.scss */
 .F {
   font-family: helvetica, sans-serif;
 }
 
-/* line 723, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 731, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton {
   background-color: transparent;
   border: none;
@@ -836,18 +839,18 @@ audio.audio {
   cursor: pointer;
 }
 
-/* line 735, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 743, /Users/maxdefroe/HCI/public/scss/style.scss */
 .fontButton:focus {
   outline: none;
 }
 
-/* line 740, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 748, /Users/maxdefroe/HCI/public/scss/style.scss */
 .speech {
   width: 10%;
   background-color: white;
 }
 
-/* line 745, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 753, /Users/maxdefroe/HCI/public/scss/style.scss */
 .greyscalebtn {
   font-size: 20px;
   text-align: center;
@@ -862,7 +865,7 @@ audio.audio {
   color: #252525;
 }
 
-/* line 760, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 768, /Users/maxdefroe/HCI/public/scss/style.scss */
 .shortcuts {
   color: #252525;
   font-size: 20px;
@@ -877,12 +880,12 @@ audio.audio {
   margin-bottom: 30px;
 }
 
-/* line 772, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 780, /Users/maxdefroe/HCI/public/scss/style.scss */
 .shortcuts ul {
   display: none;
 }
 
-/* line 775, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 783, /Users/maxdefroe/HCI/public/scss/style.scss */
 .shortcuts li {
   font-weight: lighter;
   font-size: 15px;
@@ -890,7 +893,7 @@ audio.audio {
 }
 
 @media (max-width: 768px) {
-  /* line 760, /Users/maxdefroe/HCI/public/scss/style.scss */
+  /* line 768, /Users/maxdefroe/HCI/public/scss/style.scss */
   .shortcuts {
     display: none;
   }
