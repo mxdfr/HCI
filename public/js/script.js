@@ -182,7 +182,6 @@ function changeLogin() {
     document.getElementById("born").style.display = "none";
     document.getElementById("smoke").style.display = "none";
     document.getElementsByName("name")[0].placeholder = "Username"
-
   }
 }
 
@@ -245,7 +244,7 @@ function setFontsize(size) {
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+  element.appendAttr('style', 'font-size: ' + size + ' !important') }
 
   try {
     var element = document.getElementById('graph');
@@ -288,7 +287,7 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+  element.appendAttr('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('personal_information p');
   for (var i = 0; i < elements.length; i++) {
