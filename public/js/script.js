@@ -220,34 +220,34 @@ function setFontsize(size) {
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   var elements = document.getElementsByClassName('btn');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   var elements = document.getElementsByClassName('countryList');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontSize = size;}
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   try {
     var element = document.getElementById('graph');
-    element.style.fontSize = size;
+    element.setAttribute('style', 'font-size: ' + size + ' !important');
 
     var element = document.getElementById('last_smoke');
-    element.style.fontSize = size;
+    element.setAttribute('style', 'font-size: ' + size + ' !important');
 }
 catch {
   console.log("not logged in yet")
@@ -263,45 +263,44 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('panel');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;}
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('btn');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;}
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('countryList');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;}
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;}
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('personal_information p');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.style.fontFamily = family;}
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   try {
       var element = document.getElementById('graph');
-      element.style.fontFamily = family;
+      element.setAttribute('style', 'font-family: ' + family + ' !important') ;
 
       var element = document.getElementById('last_smoke');
-      element.style.fontFamily = family;
+      element.setAttribute('style', 'font-family: ' + family + ' !important') ;
   }
   catch {
     console.log("not logged in yet")
   }
   }
-}
 // Reset all the settings (language, fontFamily and fontsize) to the settings of the first load.
 function resetSettings() {
   localStorage.setItem("language",'english')

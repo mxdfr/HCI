@@ -55,6 +55,14 @@
 }
 
 @font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: OpenDyslexic3;
     src: url('../fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
          url('../fonts/OpenDyslexicThree-Regular.woff') format('woff');
@@ -344,11 +352,11 @@ h1 {
 	}
 	@include bp(W768) {
 		max-width: 90%;
-		.white-block {
-			span {
-				font-size: 17px;
-			}
-		}
+		// .white-block {
+		// 	span {
+		// 		font-size: 17px;
+		// 	}
+		// }
 	}
 	@include bp(W550) {
 		max-width: 100%;
@@ -368,7 +376,7 @@ h1 {
 	font-size: 16px;
 }
 .icon {
-	max-width: 50px;
+	max-width: 40px;
     margin: 20px;
     max-height: 50px;
     float: left;
@@ -709,7 +717,7 @@ audio.audio {
 }
 
 .D {
-	font-family: arial, sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .E {
