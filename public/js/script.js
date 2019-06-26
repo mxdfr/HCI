@@ -222,6 +222,11 @@ function setFontsize(size) {
   var element = elements[i];
   element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
+  var elements = document.getElementsByClassName('spanner');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
+
   var elements = document.getElementsByClassName('white-block');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
@@ -290,6 +295,11 @@ function setFontFamily(family) {
   var element = elements[i];
   element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
+  var elements = document.getElementsByClassName('spanner');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
+
   try {
       var element = document.getElementById('graph');
       element.setAttribute('style', 'font-family: ' + family + ' !important') ;
@@ -305,6 +315,6 @@ function setFontFamily(family) {
 function resetSettings() {
   localStorage.setItem("language",'english')
   localStorage.setItem("fontfamily", 'Helvetica')
-  localStorage.setItem("fontsize", '18px')
+  localStorage.setItem("fontsize", 'initial')
   location.reload()
 }
