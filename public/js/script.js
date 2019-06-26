@@ -244,7 +244,12 @@ function setFontsize(size) {
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.appendAttr('style', 'font-size: ' + size + ' !important') }
+  element.setAttribute('style', 'font-size: ' + size + ' !important; display:none') }
+
+  var elements = document.getElementsByClassName('registerInputMain');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.setAttribute('style', 'font-size: ' + size + ' !important') }
 
   try {
     var element = document.getElementById('graph');
@@ -287,7 +292,12 @@ function setFontFamily(family) {
   var elements = document.getElementsByClassName('registerInput');
   for (var i = 0; i < elements.length; i++) {
   var element = elements[i];
-  element.appendAttr('style', 'font-family: ' + family + ' !important') }
+  element.setAttribute('style', 'font-family: ' + family + ' !important; display:none') }
+
+  var elements = document.getElementsByClassName('registerInputMain');
+  for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
+  element.setAttribute('style', 'font-family: ' + family + ' !important') }
 
   var elements = document.getElementsByClassName('personal_information p');
   for (var i = 0; i < elements.length; i++) {
