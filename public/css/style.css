@@ -339,6 +339,7 @@ h1 {
 
 /* line 333, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block span {
+  font-size: 20px;
   max-width: 60%;
   display: inline-block;
   margin-top: 30px;
@@ -347,7 +348,7 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 341, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 342, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block:focus {
   outline: none;
 }
@@ -361,7 +362,7 @@ h1 {
   }
 }
 
-/* line 350, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 351, /Users/maxdefroe/HCI/public/scss/style.scss */
 .white-block-wrapper .white-block.active {
   border-radius: 10px 10px 0px 0px;
 }
@@ -370,6 +371,10 @@ h1 {
   /* line 316, /Users/maxdefroe/HCI/public/scss/style.scss */
   .white-block-wrapper {
     max-width: 90%;
+  }
+  /* line 357, /Users/maxdefroe/HCI/public/scss/style.scss */
+  .white-block-wrapper .white-block span {
+    font-size: 17px;
   }
 }
 
@@ -380,14 +385,14 @@ h1 {
   }
 }
 
-/* line 373, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 374, /Users/maxdefroe/HCI/public/scss/style.scss */
 .chat_bot {
   text-align: center;
   color: white;
   font-size: 16px;
 }
 
-/* line 378, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 379, /Users/maxdefroe/HCI/public/scss/style.scss */
 .icon {
   max-width: 40px;
   margin: 20px;
@@ -395,14 +400,13 @@ h1 {
   float: left;
 }
 
-/* line 386, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 387, /Users/maxdefroe/HCI/public/scss/style.scss */
 #contentContainer a .thin, #contentContainer a .emojione, #contentContainer a b {
   display: none;
 }
 
-/* line 392, /Users/maxdefroe/HCI/public/scss/style.scss */
+/* line 393, /Users/maxdefroe/HCI/public/scss/style.scss */
 .first_block {
-  font-size: 16px;
   color: white;
   text-align: center;
 }

@@ -306,6 +306,6 @@ function setFontFamily(family) {
 function resetSettings() {
   localStorage.setItem("language",'english')
   localStorage.setItem("fontfamily", 'Helvetica')
-  localStorage.setItem("fontsize", 'inital')
+  localStorage.setItem("fontsize", '18px')
   location.reload()
 }
