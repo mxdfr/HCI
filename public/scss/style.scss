@@ -281,6 +281,7 @@ h1 {
 	padding: 15px 0px 0px 0px;
 }
 
+
 .header-image {
 	max-width: 700px;
 	margin-top: 40px !important;
@@ -670,6 +671,12 @@ audio.audio {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
+.form-container {
+	.hideme {
+		display: none;
+	}
+}
 .fontpopup {
 	.form-container {
 		padding-top: 30px;
@@ -719,11 +726,11 @@ audio.audio {
 }
 
 .D {
-	font-family:arial, Helvetica, sans-serif;
+	font-family: arial, sans-serif;
 }
 
 .E {
-	font-family: Verdana,Geneva,sans-serif; 
+	font-family: Verdana, sans-serif; 
 }
 
 .F {

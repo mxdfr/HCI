@@ -101,12 +101,18 @@
 <!-- Login page -->
 <div class="form-popup" id="myForm">
   <form class="form-container">
+    <label class="hideme" for="name">name:</label>
     <input type="text" placeholder="Username" name="name" id="name" class="registerInput" required>
+    <label class="hideme" for="psw">password:</label>
     <input type="password" placeholder="Password" name="psw" id="psw" class="registerInput" required>
+    <label class="hideme" for="age">age:</label>
     <input type="text" placeholder="Age" style='display:none;' name="age" id="age" class="registerInput">
+    <label class="hideme" for="born">birth date baby:</label>
     <input type="text" placeholder="Date of birth baby (DD-MM-YY)" style='display:none;' name="born" id="born" class="registerInput">
+    <label class="hideme" for="smoke">Date os last cigarette:</label>
     <input type="text" placeholder="Date of last cigarette (DD-MM-YY)" style='display:none;' name="smoke" id="smoke" class="registerInput">
     <label>
+        <label class="hideme" for="checkBox">checkbox:</label>
       <input type="checkbox" id="checkBox" onclick="changeLogin()">I don't own an account
     </label>
     <button class="btn" onclick="login()" id="loginRegister">Login</button>
@@ -155,8 +161,10 @@
 <!-- Chat bot -->
 <div id="chat_bot" class = "chat_bot" style="display: none;">
   <p>Hi, sit down, relax, and talk to me. I will listen to you and provide you with the best feedback I can</p>
-  <input type="text">
-  <input type="submit">
+  <label class="hideme" for="input">name:</label>
+  <input id="input" type="text">
+  <label class="hideme" for="submit">submit:</label>
+    <input id="submit" name="submit" type="submit">
 </div>
 <!-- BCT-1 Content -->
 <div class="white-block-wrapper"> 
